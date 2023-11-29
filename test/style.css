@@ -39,10 +39,10 @@ html,body{
     background-image: url('img/LC.jpg');
 }
 #bg-section02{
-    background-image: url('img/img02.jpg');
+    background-image: url('img/Quad.jpg');
 }
 #bg-section03{
-    background-image: url('img/img03.jpg');
+    background-image: url('img/winter.jpg');
     top: 30vh;
 }
 .oleo{
@@ -150,7 +150,31 @@ html,body{
     z-index: 3;
     padding: 10vh 0;
 }
+#section07{
+    position: relative;
+    background: #4725e0;
+    z-index: 3;
+    padding: 10vh 0;
+}
 
+#section08{
+    position: relative;
+    background: #674cdf;
+    z-index: 3;
+    padding: 10vh 0;
+}
+#section09{
+    position: relative;
+    background: #8b7dc5;
+    z-index: 3;
+    padding: 10vh 0;
+}
+#section10{
+    position: relative;
+    background: #7dc5aa;
+    z-index: 3;
+    padding: 10vh 0;
+}
 #footer{
     color: #FFF;
     padding: 50px 20px;

@@ -50,298 +50,38 @@
                             <p>Energy usage can just look like numbers without the necessary context</p>
                             <div id="chart"></div>
                                 <script>
-                                    // set the dimensions and margins of the graph
-var margin = {top: 60, right: 230, bottom: 50, left: 50},
-    width = 660 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
-
-// append the svg object to the body of the page
-var svg = d3.select("#chart")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
-
-// Parse the Data
-d3.csv("Daily,2018-2023.csv", function(data) {
-
-
-  //////////
-  // GENERAL //
-  //////////
-
-  // List of groups = header of the csv files
-  var keys = [
- "30 Mac Main Electricity Meter",
- "Bigelow Hall Main Electricity Meter",
- "Briggs House Main Electricity Meter",
- "Campus Center Kitchen Electricity Meter",
- "Campus Center Main Electricity Meter",
- "Campus Electricity Main Meter",
- "Campus-Wide Chiller Electricity Meter",
- "Carnegie Hall Main Electricity Meter",
- "Chapel Main Electricity Meter",
- "Cultural House Main Electricity Meter",
- "Doty Hall Main Electricity Meter",
- "Dupre Hall Main Electricity Meter",
- "Fine Arts Complex Main Electric Vault",
- "GDD Hall Main Electricity Meter",
- "Grand-Cambridge Apartments Electricity Meter",
- "Heating Plant Gas Meter",
- "Humanities Bldg Main Electricity Meter",
- "Kagin Commons Main Electricity Meter",
- "Kirk Hall Main Electricity Meter",
- "Leonard Center Main Electricity Meter",
- "Leonard Center PV eGauge Meter",
- "Library Main Electricity Meter",
- "Markim Hall Main Electricity Meter",
- "Markim Hall Photovoltaic Electricity Generation Meter",
- "Markim PV eGauge Meter",
- "Music Main Electricity Meter",
- "Old Main Electricity Meter",
- "Olin-Rice Electricity Meter",
- "Olin-Rice Hall Wind Turbine Generation Meter",
- "Stadium Field Light Electricity Meter",
- "Stadium Main Electricity Meter",
- "Studio Art Building Main Electricity Meter",
- "Theater Main Electricity Meter",
- "Theater PV eGauge Meter",
- "Turck Hall Main Electricity Meter",
- "Wallace Hall Main Electricity Meter",
- "Weyerhaeuser Hall Main Electricity Meter"
-];
-
-
-  // color palette
-  var color = d3.scaleOrdinal()
-    .domain(keys)
-    .range(d3.schemeSet2);
-
-  //stack the data?
-  console.log(data);
-  console.log(keys);
-
-  var stackedData = d3.stack()
-    .keys(keys)
-    (data)
-
-
-
-  
- //////////
- // AXIS //
- //////////
-
- // Parse the date / time
- var parseTime = d3.timeParse("%m/%d/%Y %I:%M %p");
-
-// Add X axis
-var x = d3.scaleTime()
-  .domain(d3.extent(data, function(d) { return parseTime(d.Date); }))
-  .range([ 0, width ]);
-var xAxis = svg.append("g")
-  .attr("transform", "translate(0," + height + ")")
-  .call(d3.axisBottom(x).ticks(5))
-
-// Add X axis label:
-svg.append("text")
-    .attr("text-anchor", "end")
-    .attr("x", width)
-    .attr("y", height+40 )
-    .text("Date");
-
-// Add Y axis label:
-svg.append("text")
-    .attr("text-anchor", "end")
-    .attr("x", 0)
-    .attr("y", -20 )
-    .text("kWh")
-    .attr("text-anchor", "start")
-
-// Add Y axis
-var y = d3.scaleLinear()
-  .domain([0, d3.max(data, function(d) { 
-    return keys.reduce((a, key) => a + d[key], 0); 
-  })])
-  .range([ height, 0 ]);
-svg.append("g")
-  .call(d3.axisLeft(y).ticks(5))
-
-
-  //////////
-  // BRUSHING AND CHART //
-  //////////
-
-  // Add a clipPath: everything out of this area won't be drawn.
-  var clip = svg.append("defs").append("svg:clipPath")
-      .attr("id", "clip")
-      .append("svg:rect")
-      .attr("width", width )
-      .attr("height", height )
-      .attr("x", 0)
-      .attr("y", 0);
-
-  // Add brushing
-  var brush = d3.brushX()                 // Add the brush feature using the d3.brush function
-      .extent( [ [0,0], [width,height] ] ) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
-      .on("end", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
-
-  // Create the scatter variable: where both the circles and the brush take place
-  var areaChart = svg.append('g')
-    .attr("clip-path", "url(#clip)")
-
-  // Area generator
-  var area = d3.area()
-    .x(function(d) { return x(d.data.year); })
-    .y0(function(d) { return y(d[0]); })
-    .y1(function(d) { return y(d[1]); })
-
-  // Show the areas
-  areaChart
-    .selectAll("mylayers")
-    .data(stackedData)
-    .enter()
-    .append("path")
-      .attr("class", function(d) { return "myArea " + d.key })
-      .style("fill", function(d) { return color(d.key); })
-      .attr("d", area)
-
-  // Add the brushing
-  areaChart
-    .append("g")
-      .attr("class", "brush")
-      .call(brush);
-
-  var idleTimeout
-  function idled() { idleTimeout = null; }
-
-  // A function that update the chart for given boundaries
-  function updateChart() {
-
-    extent = d3.event.selection
-
-    // If no selection, back to initial coordinate. Otherwise, update X axis domain
-    if(!extent){
-      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
-      x.domain(d3.extent(data, function(d) { return d.year; }))
-    }else{
-      x.domain([ x.invert(extent[0]), x.invert(extent[1]) ])
-      areaChart.select(".brush").call(brush.move, null) // This remove the grey brush area as soon as the selection has been done
-    }
-
-    // Update axis and area position
-    xAxis.transition().duration(1000).call(d3.axisBottom(x).ticks(5))
-    areaChart
-      .selectAll("path")
-      .transition().duration(1000)
-      .attr("d", area)
-    }
-
-
-
-    //////////
-    // HIGHLIGHT GROUP //
-    //////////
-
-    // What to do when one group is hovered
-    var highlight = function(d){
-      console.log(d)
-      // reduce opacity of all groups
-      d3.selectAll(".myArea").style("opacity", .1)
-      // expect the one that is hovered
-      d3.select("."+d).style("opacity", 1)
-    }
-
-    // And when it is not hovered anymore
-    var noHighlight = function(d){
-      d3.selectAll(".myArea").style("opacity", 1)
-    }
-
-
-
-    //////////
-    // LEGEND //
-    //////////
-
-    // Add one dot in the legend for each name.
-    var size = 20
-    svg.selectAll("myrect")
-      .data(keys)
-      .enter()
-      .append("rect")
-        .attr("x", 400)
-        .attr("y", function(d,i){ return 10 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
-        .attr("width", size)
-        .attr("height", size)
-        .style("fill", function(d){ return color(d)})
-        .on("mouseover", highlight)
-        .on("mouseleave", noHighlight)
-
-    // Add one dot in the legend for each name.
-    svg.selectAll("mylabels")
-      .data(keys)
-      .enter()
-      .append("text")
-        .attr("x", 400 + size*1.2)
-        .attr("y", function(d,i){ return 10 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
-        .style("fill", function(d){ return color(d)})
-        .text(function(d){ return d})
-        .attr("text-anchor", "left")
-        .style("alignment-baseline", "middle")
-        .on("mouseover", highlight)
-        .on("mouseleave", noHighlight)
-
-})
-                                </script>
-                            <p>Or just include the script in your page:</p>
-                            <div class="code-print">
-                                <pre class="prettyprint linenums"><code class="language-html">&lt;script src=&quot;path/to/luxy.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</code></pre>
-                            </div>
-                            <p>Included luxy.js in your project and initialize:</p>
-                            <div class="code-print">
-<pre  class="prettyprint linenums">
-<code class="language-html">&lt;script charset=&quot;utf-8&quot;&gt;
-    luxy.init();
-&lt;/script&gt;</code>
-</pre>
-</div>
+                                  // need to add vis
+                                    </script>
+                            <p>Let's dive a bit deeper to fully understand</p>
                         </div>
                     </div>
                 </div>
                 
             </div>
-			<div id="section03" class="vh-element" data-props="padding-top" data-values="50">
-                <div id="bg-section02" class="luxy-el bg-section" data-speed-y="-10"></div>
-            </div>
+            <div id="section03" class="vh-element" data-props="padding-top" data-values="50">
+              <div id="bg-section02" class="luxy-el bg-section" data-speed-y="-10">
+                  <div class="container"> <!-- Wrap the content in a container -->
+                      <div class="row justify-content-center">
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
             <div id="section04">
-
-                
                 <div class="container z-depth-2">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <h3 class="oleo title text-center mb-3">Usage</h3>
-                            <p>Wrap the entire content with the element specified in the wrapper option. Please exclude fixed elements.</p>
-                            <div class="code-print">
-<pre  class="prettyprint linenums">
-<code class="language-html">&lt;div id=&quot;luxy&quot;&gt;
-    ... Entire content
-&lt;/div&gt;</code>
-</pre>
-</div>
-                            <p>Add .luxy-el to the element for which parallax effect is to be specified.</p>
-                            <div class="code-print"><pre  class="prettyprint linenums"><code class="language-html">&lt;div id=&quot;luxy&quot;&gt;
-    &lt;div class=&quot;luxy-el&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</code></pre></div>
-                            <p>Specify the speed of the parallax effect with the data-speed-y attribute and offset with the data-offset attribute.</p>
-                            <div class="code-print"><pre  class="prettyprint linenums"><code class="language-html">&lt;div id=&quot;luxy&quot;&gt;
-    &lt;div class=&quot;luxy-el&quot; data-speed-y=&quot;5&quot; data-offset=&quot;-50&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</code></pre></div>
-                            <p>If you want to move horizontally, specify data-horizontal="1" and specify the speed in the horizontal direction with the data-speed-x attribute.</p>
-                            <div class="code-print"><pre  class="prettyprint linenums"><code class="language-html">&lt;div id=&quot;luxy&quot;&gt;
-    &lt;div class=&quot;luxy-el&quot; data-horizontal=&quot;1&quot; data-speed-x=&quot;-5&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</code></pre></div>
+                            <h3 class="oleo title text-center mb-3">What is a kilowatt-hour</h3>
+                            <p>
+                              In the realm of energy measurement, the kilowatt-hour (kWh) stands as a pivotal unit, serving as the cornerstone for 
+                              understanding and managing power consumption. Defined as the energy expended when one kilowatt of power operates for one hour.
+                            </p>
+                            <div class="graph-balls">
+                              <!-- add force simulation,ability to filter different devices -->
+                            </div>
+
+                            <p>Each ball represents a different item that can be powered by 1 kWh</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -353,43 +93,77 @@ svg.append("g")
                 <div class="container z-depth-2">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <h3 class="oleo title text-center mb-3">Options</h3>
-                            <table class="table table-bordered table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>default</th>
-                                        <th>description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>wrapper</th>
-                                        <td>'#luxy'</td>
-                                        <td>Entire content wrapper element.</td>
-                                    </tr>
-                                    <tr>
-                                        <th>targets</th>
-                                        <td>'.luxy-el'</td>
-                                        <td>Parallax effect targets elements.</td>
-                                    </tr>
-                                    <tr>
-                                        <th>wrapperSpeed</th>
-                                        <td>0.08</td>
-                                        <td>Inertia scroll speed.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <h3 class="oleo title text-center mb-3">Dorm Buildings</h3>
+                            <p>Dorm buildings while not the largest consumers of electricity on the campus, do represent the most
+                              relatable data as most of the power draw we would assume comes from student use and not infrastructure.
+                            </p>
+                            <div class="graph-Dorm">
+                              <!-- Interactive line graph for dorm building energy use -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div id="section07">
+              <div class="container z-depth-2">
+                  <div class="row justify-content-center">
+                      <div class="col-lg-8">
+                          <h3 class="oleo title text-center mb-3">Academic Buildings</h3>
+                          <p>Academic buildings are the heart of the campus and not suprisingly also the majority of the electirity use on campus,
+                            lets dive into some possible reasons.
+                          </p>
+                          <div class="graph-Academic">
+                            <!-- Interactive line graph for academic building energy use -->
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div id="section08">
+            <div class="container z-depth-2">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h3 class="oleo title text-center mb-3">Stadium and Tennis Court Lights</h3>
+                        <p>Stadium lights are a unique fixture as we can see the effect of different types of sporting events directly by examening the power 
+                          draw of the lights.
+                        </p>
+                        <div class="graph-lights">
+                          <!-- Interactive line graph for stadium and tennis court energy use, allowing user to filter-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section09">
+          <div class="container z-depth-2">
+              <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                      <h3 class="oleo title text-center mb-3">The Boiler Room</h3>
+                      <p>
+                      </p>
+                      <div class="graph-lights">
+                        <!-- Interactive graph for visualizing the energy usage of boiler room-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="section10">
+        <div class="container z-depth-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h3 class="oleo title text-center mb-3">Electricity Generation</h3>
+                    <p>
+                    </p>
+                    <div class="graph-lights">
+                      <!-- Graph for visualizing the energy generation-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 		</main>
-		<footer id="footer">
-            <div id="copyright">
-                Luxy.js © 2018 Mineo Okuda. released under MIT license
-            </div>      
-        </footer>
+		
 	</div>
 	<script src="https://rawgit.com/google/code-prettify/master/loader/run_prettify.js" defer></script>
     <script src="test/script.js" charset="utf-8"></script>
