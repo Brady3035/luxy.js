@@ -59,5 +59,8 @@
     "type": "git",
     "url": "git+ssh://git@github.com:min30327/luxy.js.git"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "dependencies": {
+    "@observablehq/stdlib": "^5.8.4"
+  }
 }
