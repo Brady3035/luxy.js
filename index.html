@@ -76,22 +76,85 @@
                               In the realm of energy measurement, the kilowatt-hour (kWh) stands as a pivotal unit, serving as the cornerstone for 
                               understanding and managing power consumption. Defined as the energy expended when one kilowatt of power operates for one hour.
                             </p>
+                            <h2>Below is a tool to help visulize what can be powered by 1000W for an hour, a kWh.</h2>
+                            <div class="dropdown">
+                                <!-- Dropdown button -->
+                                <button onclick="toggleDropdown()" class="dropbtn" id="dropdownButton">Dropdown</button>
+                                
+                                <!-- Dropdown content -->
+                                <div id="myDropdown" class="dropdown-content">
+                                  <!-- Dropdown items -->
+                                  <a href="#" onclick="selectOption('Charging a Phone', event)">Charging a Phone</a>
+                                  <a href="#" onclick="selectOption('Microwave', event)">Microwave</a>
+                                  <a href="#" onclick="selectOption('Charging a Computer', event)">Charging a Computer</a>
+                                  <a href="#" onclick="selectOption('Lightbulb', event)">Lightbulb</a>
+                                  <a href="#" onclick="selectOption('T.V.', event)">T.V.</a>
+                                </div>
+                              </div>
+                              
+                              <script>
+                                // Function to toggle the dropdown content
+                                function toggleDropdown() {
+                                  var dropdown = document.getElementById("myDropdown");
+                                  dropdown.classList.toggle("show");
+                                }
+                              
+                                // Function to handle option selection
+                                function selectOption(optionText, event) {
+                                  var dropdownButton = document.getElementById("dropdownButton");
+                                  dropdownButton.textContent = optionText;
+                                  toggleDropdown(); // Close the dropdown after selecting an option
+                                  event.preventDefault(); // Prevent the default link behavior
+                                }
+                              
+                                // Close the dropdown if the user clicks outside of it
+                                window.onclick = function(event) {
+                                  if (!event.target.matches('.dropbtn')) {
+                                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                                    for (var i = 0; i < dropdowns.length; i++) {
+                                      var openDropdown = dropdowns[i];
+                                      if (openDropdown.classList.contains('show')) {
+                                        openDropdown.classList.remove('show');
+                                      }
+                                    }
+                                  }
+                                }
+                              </script>
+                              
+                              
                             <div id="graphballs">
                                 <script type="module">
                                     const width = window.innerWidth;
                                     const height = window.innerHeight;
                                     const color = d3.scaleOrdinal(d3.schemeTableau10);
-                                    const context = context2d(window.innerWidth,window.innerHeight);
+                                    const context = context2d(width,height);
                                     const data = createData();
                                     const nodes = data.map(Object.create);
 
-                                    
-
                                     function createData() {
-                                        const k = width / 200;
-                                        const r = d3.randomUniform(k, k * 4);
-                                        const n = 4;
-                                        return Array.from({length: 200}, (_, i) => ({r: r(), group: i && (i % n + 1)}));
+                                        var dropdownButton = document.getElementById("dropdownButton");
+                                        if (dropdownButton.textContent == "Dropdown"){
+                                            const k = width / 200;
+                                            const r = d3.randomUniform(k, k * 4);
+                                            const n = 4;
+                                            return Array.from({length: 200}, (_, i) => ({r: r(), group: i && (i % n + 1)}));
+                                        }
+                                        else if (dropdownButton.textContent == "Charging a Phone"){
+                                            
+                                        }
+                                        else if (dropdownButton.textContent == "Charging a Computer"){
+                                            
+                                        }
+                                        else if (dropdownButton.textContent == "Microwave"){
+                                            
+                                        }
+                                        else if (dropdownButton.textContent == "Lightbulb"){
+                                            
+                                        }
+                                        else if (dropdownButton.textContent == "T.V."){
+                                            
+                                        }
+                                        
                                     }
 
                                     function context2d(width, height, dpi) {
@@ -141,13 +204,10 @@
                                         context.restore();
                                     }
                                     graphballs.append(context.canvas)
-
+                                    
                                 </script>
-                              <!-- add force simulation,ability to filter different devices -->
+                              
                             </div>
-
-                            <p>Each ball represents a different item that can be powered by 1 kWh</p>
-                            
                         </div>
                     </div>
                 </div>
