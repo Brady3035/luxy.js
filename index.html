@@ -57,7 +57,7 @@
                               const marginRight = 10;
                               const marginBottom = 20;
                               const marginLeft = 40;
-                              var data1 = d3.csv("./src/unemployment.csv").then(data => {
+                              var data1 = d3.csv("./src/unemployment.csv",d3.autoType).then(data => {
                                 console.log(data)
                                 // Determine the series that need to be stacked.
                                 const series = d3.stack()
@@ -69,6 +69,7 @@
                               const x = d3.scaleUtc()
                                   .domain(d3.extent(data, d => d.date))
                                   .range([marginLeft, width1 - marginRight]);
+                              
 
                               const y = d3.scaleLinear()
                                   .domain([0, d3.max(series, d => d3.max(d, d => d[1]))])
@@ -120,7 +121,7 @@
                                   .call(d3.axisBottom(x).tickSizeOuter(0));
 
                               // Return the chart with the color scale as a property (for the legend).
-                              chart.append(svg.node(), {scales: {color1}});
+                              chart.append(svg.node());
                               });
 
                               
