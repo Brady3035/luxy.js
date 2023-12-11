@@ -57,13 +57,13 @@
                               const marginRight = 10;
                               const marginBottom = 20;
                               const marginLeft = 40;
-                              var data1 = d3.csv("./src/unemployment.csv",d3.autoType).then(data => {
+                              var data1 = d3.csv("src/Hourly_data/combined_hourly_data_final.csv",d3.autoType).then(data => {
                                 console.log(data)
                                 // Determine the series that need to be stacked.
                                 const series = d3.stack()
-                                  .keys(d3.union(data.map(d => d.industry))) // distinct series keys, in input order
-                                  .value(([, D], key) => D.get(key).unemployed) // get value for each series key and stack
-                                (d3.index(data, d => d.date, d => d.industry)); // group by stack then series key
+                                  .keys(d3.union(data.map(d => d.building))) // distinct series keys, in input order
+                                  .value(([, D], key) => D.get(key).kWh) // get value for each series key and stack
+                                (d3.index(data, d => d.date, d => d.building)); // group by stack then series key
 
                                 // Prepare the scales for positional and color encodings.
                               const x = d3.scaleUtc()
@@ -101,7 +101,7 @@
                                       .attr("y", 10)
                                       .attr("fill", "currentColor")
                                       .attr("text-anchor", "start")
-                                      .text("↑ Unemployed persons"));
+                                      .text("↑ kWh"));
                             const color1 = d3.scaleOrdinal()
                             .domain(series.map(d => d.key))
                             .range(d3.schemeTableau10);
