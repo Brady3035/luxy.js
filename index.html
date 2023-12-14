@@ -57,14 +57,20 @@
                               const marginRight = 10;
                               const marginBottom = 20;
                               const marginLeft = 40;
-                              var data1 = d3.csv("src/Hourly_data/combined_hourly_data_final.csv",d3.autoType).then(data => {
-                                console.log(data)
+
+                              var data = d3.csv("src/Hourly_data/combined_hourly_data_final.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
+                                
+                                console.log(data);
+                                console.log(data[0]);
+                                
                                 // Determine the series that need to be stacked.
                                 const series = d3.stack()
                                   .keys(d3.union(data.map(d => d.building))) // distinct series keys, in input order
-                                  .value(([, D], key) => D.get(key).kWh) // get value for each series key and stack
-                                (d3.index(data, d => d.date, d => d.building)); // group by stack then series key
-
+                                  .value(([, group], key) => group.get(key).kWh) // get value for each series key and stack
+                                
+                                (d3.index(data, d => d.building, d => d.date)); // group by stack then series key
+                                
+                            
                                 // Prepare the scales for positional and color encodings.
                               const x = d3.scaleUtc()
                                   .domain(d3.extent(data, d => d.date))

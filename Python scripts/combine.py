@@ -2,10 +2,10 @@ import os
 import pandas as pd
 
 # Path to the folder containing the CSV files
-folder_path = 'src\Hourly_data'
+folder_path = 'src/Hourly_data/Hourly Data from 2022-11-01 to 2023-02-28'
 
-# Create an empty list to store the combined data
-combined_data_list = []
+# Create an empty DataFrame to store the combined data
+combined_data = pd.DataFrame(columns=['Date', 'kWh', 'Building'])
 
 # Loop through each file in the folder
 for filename in os.listdir(folder_path):
@@ -20,18 +20,16 @@ for filename in os.listdir(folder_path):
         try:
             df = pd.read_csv(file_path)
 
-        
+            # Add a new 'Building' column with the building name
+            df['Building'] = building_name
 
-            # Iterate through each row and append to the combined data list
+            # Iterate through each row and append to the combined DataFrame
             for index, row in df.iterrows():
-                combined_data_list.append(row[['Date', 'kWh', 'Building']].tolist())
+                combined_data = combined_data.append(row[['Date', 'kWh', 'Building']], ignore_index=True)
         except Exception as e:
             print(f"Error processing file {file_path}: {e}")
 
-# Convert the list to a DataFrame
-combined_data = pd.DataFrame(combined_data_list, columns=['Date', 'kWh', 'Building'])
-
 # Save the combined data to a new CSV file
-combined_data.to_csv('src/Hourly_data/combined_hourly_data_final.csv', index=False)
+combined_data.to_csv('src/Hourly_data/combined_data1.csv', index=False)
 
 print("Combining CSV files completed.")
