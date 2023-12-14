@@ -57,25 +57,36 @@
                               const marginRight = 10;
                               const marginBottom = 20;
                               const marginLeft = 40;
-
+                              
+                                 
                               var data = d3.csv("src/Hourly_data/combined_hourly_data_final.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
                                 
-                                // Assuming you have a nested structure with building and date
+                                                          // Assuming you have a nested structure with building and date
 
 
-    // Convert Date objects to string representation for use as keys
-    const uniqueKeys = d3.union(data.map(d => d.building));
-    const uniqueDates = d3.union(data.map(d => d.date.toISOString())); // Convert Date to string
-    console.log("Unique Keys:", uniqueKeys);
-    console.log("Unique Dates:", uniqueDates);
-    
-    const series = d3.stack()
-        .keys(uniqueKeys)
-        .value(([, D], key) => D.get(key).kWh)
-        (d3.index(data, d => d.building, d => d.date)); // get value for each series key and stack
-   
+                              // Convert Date objects to string representation for use as keys
+                              const uniqueKeys = d3.union(data.map(d => d.building));
+                              const uniqueDates = d3.union(data.map(d => d.date.toISOString())); // Convert Date to string
+                              console.log("Unique Keys:", uniqueKeys);
+                              console.log("Unique Dates:", uniqueDates);
+                              
+                              const series = d3.stack()
+                                  .keys(uniqueKeys)
+                                  .value(([, D], key) => {
+                                    
+                                  
+                                    if (D.get(key) == undefined){
+                                      
+                                      return 0;
+                                    }
 
-    console.log("Series:", series);
+                                    current = D.get(key);
+                                    return D.get(key).kWh;
+                                  })
+                                  (d3.index(data, d => d.date, d => d.building)); // get value for each series key and stack
+                            
+
+                              console.log("Series:", series);
                                 
                             
                                 // Prepare the scales for positional and color encodings.
