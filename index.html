@@ -392,7 +392,7 @@
                           </p>
                           <div id="graphAcademic">
                             <script>
-                              var data = d3.csv("src/Hourly_data/dorms_2022-2023_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
+                              var data = d3.csv("src/Hourly_data/academic_2022-2023_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
                               // Convert Date objects to string representation for use as keys
                               const uniqueKeys = d3.union(data.map(d => d.building));
                               console.log("Unique Keys:", uniqueKeys);
