@@ -60,9 +60,6 @@
                               
                                  
                               var data = d3.csv("src/Hourly_data/combined_hourly_data_final.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
-                                
-                                                          // Assuming you have a nested structure with building and date
-
 
                               // Convert Date objects to string representation for use as keys
                               const uniqueKeys = d3.union(data.map(d => d.building));
@@ -76,11 +73,7 @@
                                     return D.get(key).kWh;
                                   })
                                   (d3.index(data, d => d.date, d => d.building)); // get value for each series key and stack
-                            
-
-                              
-                                
-                            
+      
                                 // Prepare the scales for positional and color encodings.
                               const x = d3.scaleUtc()
                                   .domain(d3.extent(data, d => d.date))
@@ -139,15 +132,6 @@
                               // Return the chart with the color scale as a property (for the legend).
                               chart.append(svg.node());
                               });
-
-                              
-
-                              
-
-                              
-
-                              
-
                                     </script>
                             <p>Let's dive a bit deeper to fully understand</p>
                         </div>
@@ -317,9 +301,83 @@
                             <p>Dorm buildings while not the largest consumers of electricity on the campus, do represent the most
                               relatable data as most of the power draw we would assume comes from student use and not infrastructure.
                             </p>
-                            <div class="graph-Dorm">
-                              <!-- Interactive line graph for dorm building energy use -->
-                            </div>
+                            <div id="graphDorm"> </div>
+                              <script>
+                              var data = d3.csv("src/Hourly_data/dorms_2022-2023_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
+
+                              // Convert Date objects to string representation for use as keys
+                              const uniqueKeys = d3.union(data.map(d => d.building));
+                              console.log("Unique Keys:", uniqueKeys);
+                              const series = d3.stack()
+                                  .keys(uniqueKeys)
+                                  .value(([, D], key) => {
+                                    if (D.get(key) == undefined){
+                                      return 0;
+                                    }
+                                    return D.get(key).kWh;
+                                  })
+                                  (d3.index(data, d => d.date, d => d.building)); // get value for each series key and stack
+      
+                                // Prepare the scales for positional and color encodings.
+                              const x = d3.scaleUtc()
+                                  .domain(d3.extent(data, d => d.date))
+                                  .range([marginLeft, width1 - marginRight]);
+                              
+
+                              const y = d3.scaleLinear()
+                                  .domain([0, d3.max(series, d => d3.max(d, d => d[1]))])
+                                  .rangeRound([height1 - marginBottom, marginTop]);
+
+                                // Construct an area shape.
+                              const area = d3.area()
+                                  .x(d => x(d.data[0]))
+                                  .y0(d => y(d[0]))
+                                  .y1(d => y(d[1]));
+
+                              // Create the SVG container.
+                              const svg1 = d3.create("svg")
+                                  .attr("width", width1)
+                                  .attr("height", height1)
+                                  .attr("viewBox", [0, 0, width1, height1])
+                                  .attr("style", "max-width: 100%; height: auto;");
+
+                              // Add the y-axis, remove the domain line, add grid lines and a label.
+                              svg1.append("g")
+                                  .attr("transform", `translate(${marginLeft},0)`)
+                                  .call(d3.axisLeft(y).ticks(height1 / 80))
+                                  .call(g => g.select(".domain").remove())
+                                  .call(g => g.selectAll(".tick line").clone()
+                                      .attr("x2", width1 - marginLeft - marginRight)
+                                      .attr("stroke-opacity", 0.1))
+                                  .call(g => g.append("text")
+                                      .attr("x", -marginLeft)
+                                      .attr("y", 10)
+                                      .attr("fill", "currentColor")
+                                      .attr("text-anchor", "start")
+                                      .text("↑ kWh"));
+                            const color1 = d3.scaleOrdinal()
+                            .domain(series.map(d => d.key))
+                            .range(d3.schemeTableau10);
+                              // Append a path for each series.
+                              svg1.append("g")
+                                .selectAll()
+                                .data(series)
+                                .join("path")
+                                  .attr("fill", d => color1(d.key))
+                                  .attr("d", area)
+                                .append("title")
+                                  .text(d => d.key);
+
+                              // Append the horizontal axis atop the area.
+                              svg1.append("g")
+                                  .attr("transform", `translate(0,${height1 - marginBottom})`)
+                                  .call(d3.axisBottom(x).tickSizeOuter(0));
+
+                              
+                              graphDorm.append(svg1.node());
+                              });
+                              </script>
+                            
                         </div>
                     </div>
                 </div>
@@ -332,8 +390,81 @@
                           <p>Academic buildings are the heart of the campus and not suprisingly also the majority of the electirity use on campus,
                             lets dive into some possible reasons.
                           </p>
-                          <div class="graph-Academic">
-                            <!-- Interactive line graph for academic building energy use -->
+                          <div id="graphAcademic">
+                            <script>
+                              var data = d3.csv("src/Hourly_data/dorms_2022-2023_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
+                              // Convert Date objects to string representation for use as keys
+                              const uniqueKeys = d3.union(data.map(d => d.building));
+                              console.log("Unique Keys:", uniqueKeys);
+                              const series = d3.stack()
+                                  .keys(uniqueKeys)
+                                  .value(([, D], key) => {
+                                    if (D.get(key) == undefined){
+                                      return 0;
+                                    }
+                                    return D.get(key).kWh;
+                                  })
+                                  (d3.index(data, d => d.date, d => d.building)); // get value for each series key and stack
+
+                                // Prepare the scales for positional and color encodings.
+                              const x = d3.scaleUtc()
+                                  .domain(d3.extent(data, d => d.date))
+                                  .range([marginLeft, width1 - marginRight]);
+
+
+                              const y = d3.scaleLinear()
+                                  .domain([0, d3.max(series, d => d3.max(d, d => d[1]))])
+                                  .rangeRound([height1 - marginBottom, marginTop]);
+
+                                // Construct an area shape.
+                              const area = d3.area()
+                                  .x(d => x(d.data[0]))
+                                  .y0(d => y(d[0]))
+                                  .y1(d => y(d[1]));
+
+                              // Create the SVG container.
+                              const svg2 = d3.create("svg")
+                                  .attr("width", width1)
+                                  .attr("height", height1)
+                                  .attr("viewBox", [0, 0, width1, height1])
+                                  .attr("style", "max-width: 100%; height: auto;");
+
+                              // Add the y-axis, remove the domain line, add grid lines and a label.
+                              svg2.append("g")
+                                  .attr("transform", `translate(${marginLeft},0)`)
+                                  .call(d3.axisLeft(y).ticks(height1 / 80))
+                                  .call(g => g.select(".domain").remove())
+                                  .call(g => g.selectAll(".tick line").clone()
+                                      .attr("x2", width1 - marginLeft - marginRight)
+                                      .attr("stroke-opacity", 0.1))
+                                  .call(g => g.append("text")
+                                      .attr("x", -marginLeft)
+                                      .attr("y", 10)
+                                      .attr("fill", "currentColor")
+                                      .attr("text-anchor", "start")
+                                      .text("↑ kWh"));
+                              const color1 = d3.scaleOrdinal()
+                              .domain(series.map(d => d.key))
+                              .range(d3.schemeTableau10);
+                              // Append a path for each series.
+                              svg2.append("g")
+                                .selectAll()
+                                .data(series)
+                                .join("path")
+                                  .attr("fill", d => color1(d.key))
+                                  .attr("d", area)
+                                .append("title")
+                                  .text(d => d.key);
+
+                              // Append the horizontal axis atop the area.
+                              svg2.append("g")
+                                  .attr("transform", `translate(0,${height1 - marginBottom})`)
+                                  .call(d3.axisBottom(x).tickSizeOuter(0));
+
+
+                              graphAcademic.append(svg2.node());
+                              });
+                            </script>
                           </div>
                       </div>
                   </div>
@@ -347,8 +478,82 @@
                         <p>Stadium lights are a unique fixture as we can see the effect of different types of sporting events directly by examening the power 
                           draw of the lights.
                         </p>
-                        <div class="graph-lights">
-                          <!-- Interactive line graph for stadium and tennis court energy use, allowing user to filter-->
+                        <div id="graphLights">
+                          <script>
+                            var data = d3.csv("src/Hourly_data/stadium_2022-2023_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
+
+                            // Convert Date objects to string representation for use as keys
+                            const uniqueKeys = d3.union(data.map(d => d.building));
+
+                            const series = d3.stack()
+                                .keys(uniqueKeys)
+                                .value(([, D], key) => {
+                                  if (D.get(key) == undefined){
+                                    return 0;
+                                  }
+                                  return D.get(key).kWh;
+                                })
+                                (d3.index(data, d => d.date, d => d.building)); // get value for each series key and stack
+
+                              // Prepare the scales for positional and color encodings.
+                            const x = d3.scaleUtc()
+                                .domain(d3.extent(data, d => d.date))
+                                .range([marginLeft, width1 - marginRight]);
+
+
+                            const y = d3.scaleLinear()
+                                .domain([0, d3.max(series, d => d3.max(d, d => d[1]))])
+                                .rangeRound([height1 - marginBottom, marginTop]);
+
+                              // Construct an area shape.
+                            const area = d3.area()
+                                .x(d => x(d.data[0]))
+                                .y0(d => y(d[0]))
+                                .y1(d => y(d[1]));
+
+                            // Create the SVG container.
+                            const svg3 = d3.create("svg")
+                                .attr("width", width1)
+                                .attr("height", height1)
+                                .attr("viewBox", [0, 0, width1, height1])
+                                .attr("style", "max-width: 100%; height: auto;");
+
+                            // Add the y-axis, remove the domain line, add grid lines and a label.
+                            svg3.append("g")
+                                .attr("transform", `translate(${marginLeft},0)`)
+                                .call(d3.axisLeft(y).ticks(height1 / 80))
+                                .call(g => g.select(".domain").remove())
+                                .call(g => g.selectAll(".tick line").clone()
+                                    .attr("x2", width1 - marginLeft - marginRight)
+                                    .attr("stroke-opacity", 0.1))
+                                .call(g => g.append("text")
+                                    .attr("x", -marginLeft)
+                                    .attr("y", 10)
+                                    .attr("fill", "currentColor")
+                                    .attr("text-anchor", "start")
+                                    .text("↑ kWh"));
+                            const color1 = d3.scaleOrdinal()
+                            .domain(series.map(d => d.key))
+                            .range(d3.schemeTableau10);
+                            // Append a path for each series.
+                            svg3.append("g")
+                              .selectAll()
+                              .data(series)
+                              .join("path")
+                                .attr("fill", d => color1(d.key))
+                                .attr("d", area)
+                              .append("title")
+                                .text(d => d.key);
+
+                            // Append the horizontal axis atop the area.
+                            svg3.append("g")
+                                .attr("transform", `translate(0,${height1 - marginBottom})`)
+                                .call(d3.axisBottom(x).tickSizeOuter(0));
+
+
+                            graphLights.append(svg3.node());
+                            });
+                          </script>
                         </div>
                     </div>
                 </div>
@@ -358,10 +563,10 @@
           <div class="container z-depth-2">
               <div class="row justify-content-center">
                   <div class="col-lg-8">
-                      <h3 class="oleo title text-center mb-3">The Boiler Room</h3>
+                      <h3 class="oleo title text-center mb-3">Unique Areas</h3>
                       <p>
                       </p>
-                      <div class="graph-lights">
+                      <div class="UniqueGraph">
                         <!-- Interactive graph for visualizing the energy usage of boiler room-->
                       </div>
                   </div>
@@ -375,7 +580,7 @@
                     <h3 class="oleo title text-center mb-3">Electricity Generation</h3>
                     <p>
                     </p>
-                    <div class="graph-lights">
+                    <div class="GenerationGraph">
                       <!-- Graph for visualizing the energy generation-->
                     </div>
                 </div>

@@ -19,10 +19,8 @@ def filter_and_append(input_file, output_file, buildings_to_keep):
 
 # Example usage
 input_csv = 'src/Hourly_data/combined_hourly_data_final.csv'
-output_csv = 'src/Hourly_data/academic_2022-2023_hourly.csv'
-buildings_to_keep = ["Carnegie Hall Main Electricity Meter", "Humanities Bldg Main Electricity Meter", "Library Main Electricity Meter",
-                     "Music Main Electricity Meter","Old Main Electricity Meter","Olin-Rice Electricity Meter",
-                     "Theater Main Electricity Meter","Weyerhaeuser Hall Main Electricity Meter","Studio Art Building Main Electricity Meter"]
+output_csv = 'src/Hourly_data/stadium_2022-2023_hourly.csv'
+buildings_to_keep = ["Stadium Field Light Electricity Meter",]
 
 filter_and_append(input_csv, output_csv, buildings_to_keep)
 print(f"Rows with specified buildings appended to {output_csv}.")
