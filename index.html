@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="test/style.css">
     <link rel="stylesheet" href="test/prittyprint.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 </head>
 <body>
 	<div id="luxy">
@@ -59,11 +61,12 @@
                               const marginLeft = 40;
                               
                                  
-                              var data = d3.csv("src/Hourly_data/combined_hourly_data_final.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
+                              var data = d3.csv("src/Hourly_data/combined_hourly_data_final_withoutgen.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
 
                               // Convert Date objects to string representation for use as keys
                               const uniqueKeys = d3.union(data.map(d => d.building));
-                              console.log("Unique Keys:", uniqueKeys);
+                              console.log(uniqueKeys);
+                              
                               const series = d3.stack()
                                   .keys(uniqueKeys)
                                   .value(([, D], key) => {
@@ -173,121 +176,34 @@
                                   <a href="#" onclick="selectOption('Lightbulb', event)">Lightbulb</a>
                                   <a href="#" onclick="selectOption('T.V.', event)">T.V.</a>
                                 </div>
-                              </div>
-                        
-                            <div id="graphballs">
-                                <script type="module">
-                                 
-                                    const width = window.innerWidth;
-                                    const height = window.innerHeight;
-                                    const color = d3.scaleOrdinal(d3.schemeTableau10);
-                                    const context = context2d(width,height);
-                                    const data1 = createData();
-                                    const nodes = data1.map(Object.create);
-
-                                    function createData() {
-                                        var dropdownButton = document.getElementById("dropdownButton");
-                                        if (dropdownButton.textContent == "Dropdown"){
-                                            const k = width / 200;
-                                            const r = d3.randomUniform(k, k * 4);
-                                            const n = 4;
-                                            return Array.from({length: 200}, (_, i) => ({r: r(), group: i && (i % n + 1)}));
-                                        }
-                                        else if (dropdownButton.textContent == "Charging a Phone"){
-                                            
-                                        }
-                                        else if (dropdownButton.textContent == "Charging a Computer"){
-                                            
-                                        }
-                                        else if (dropdownButton.textContent == "Microwave"){
-                                            
-                                        }
-                                        else if (dropdownButton.textContent == "Lightbulb"){
-                                            
-                                        }
-                                        else if (dropdownButton.textContent == "T.V."){
-                                            
-                                        }
-                                        
-                                    }
-
-                                    function context2d(width, height, dpi) {
-                                    if (dpi == null) dpi = devicePixelRatio;
-                                    var canvas = document.createElement("canvas");
-                                    canvas.width = width * dpi;
-                                    canvas.height = height * dpi;
-                                    canvas.style.width = width + "px";
-                                    var context = canvas.getContext("2d");
-                                    context.scale(dpi, dpi);
-                                    return context;
-                                    }
-
-                                    const simulation = d3.forceSimulation(nodes)
-                                        .alphaTarget(0.3) // stay hot
-                                        .velocityDecay(0.1) // low friction
-                                        .force("x", d3.forceX().strength(0.01))
-                                        .force("y", d3.forceY().strength(0.01))
-                                        .force("collide", d3.forceCollide().radius(d => d.r + 1).iterations(3))
-                                        .force("charge", d3.forceManyBody().strength((d, i) => i ? 0 : -width * 2 / 3))
-                                        .on("tick", ticked);
-
-                                    d3.select(context.canvas)
-                                        .on("touchmove", event => event.preventDefault())
-                                        .on("pointermove", pointermoved);
-
-                                    
-
-                                    function pointermoved(event) {
-                                        const [x, y] = d3.pointer(event);
-                                        nodes[0].fx = x - width / 2;
-                                        nodes[0].fy = y - height / 2;
-                                    }
-
-                                    function ticked() {
-                                        context.clearRect(0, 0, width, height);
-                                        context.save();
-                                        context.translate(width / 2, height / 2);
-                                        for (let i = 1; i < nodes.length; ++i) {
-                                        const d = nodes[i];
-                                        context.beginPath();
-                                        context.moveTo(d.x + d.r, d.y);
-                                        context.arc(d.x, d.y, d.r, 0, 2 * Math.PI);
-                                        context.fillStyle = color(d.group);
-                                        context.fill();
-                                        }
-                                        context.restore();
-                                    }
-                                    graphballs.append(context.canvas)
-                                    // Function to toggle the dropdown content
-                                function toggleDropdown() {
+                                <script>function toggleDropdown() {
                                   var dropdown = document.getElementById("myDropdown");
                                   dropdown.classList.toggle("show");
                                 }
-                              
                                 // Function to handle option selection
                                 function selectOption(optionText, event) {
-                                  var dropdownButton = document.getElementById("dropdownButton");
-                                  dropdownButton.textContent = optionText;
-                                  toggleDropdown(); // Close the dropdown after selecting an option
-                                  event.preventDefault(); // Prevent the default link behavior
-                                }
+    var dropdownButton = document.getElementById("dropdownButton");
+    dropdownButton.textContent = optionText;
+
+    // Ensure $ is available by using jQuery.noConflict()
+    jQuery.noConflict();
+
+    // Reload the script
+    jQuery(".balls").attr('src', function (_, val) {
+      return val.split('?')[0] + "?" + Math.floor(Math.random() * 10000000);
+    });
+
+    // Reload the div
+    jQuery("#graphballs").load(location.href + " .graphballs");
+  }
+                                </script>
+                              </div>
                               
-                                // Close the dropdown if the user clicks outside of it
-                                window.onclick = function(event) {
-                                  if (!event.target.matches('.dropbtn')) {
-                                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                                    for (var i = 0; i < dropdowns.length; i++) {
-                                      var openDropdown = dropdowns[i];
-                                      if (openDropdown.classList.contains('show')) {
-                                        openDropdown.classList.remove('show');
-                                      }
-                                    }
-                                  }
-                                  
-                                }
+                            <div id="graphballs"></div>
+                                <script class = "balls" src="src/js/balls.js">
                                 </script>
                               
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -511,7 +427,7 @@
                               </script>
                             </div>
                             <p>How does this compare to a day in the fall? September 11, 2023</p>
-                            <div id = "SeptemberDormGraph">
+                            <div id = "SeptemberDormGraph"> </div>
                               <script>
                                 var data = d3.csv("src/Hourly_data/dorms_09-11-23_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
                                 // Convert Date objects to string representation for use as keys
@@ -612,7 +528,109 @@
                                     SeptemberDormGraph.append(svg5.node());
                                 });
                               </script>
-                            </div>
+                              <p>Does a dorm effect the energy usage per person?</p>
+                              <div id = "dormPerPerson"></div>
+                              <script>
+                                var data = d3.csv("src/Hourly_data/dorms_2022_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
+                                // Convert Date objects to string representation for use as keys
+                                const uniqueKeys = d3.union(data.map(d => d.building));
+                                
+                                const series = d3.stack()
+                                    .keys(uniqueKeys)
+                                    .value(([, D], key) => {
+                                      if (D.get(key) == undefined){
+                                        return 0;
+                                      }
+                                      return D.get(key).kWh;
+                                    })
+                                    (d3.index(data, d => d.date, d => d.building)); // get value for each series key and stack
+
+                                  // Prepare the scales for positional and color encodings.
+                                const x = d3.scaleUtc()
+                                    .domain(d3.extent(data, d => d.date))
+                                    .range([marginLeft, width1 - marginRight]);
+
+
+                                const y = d3.scaleLinear()
+                                    .domain([0, d3.max(series, d => d3.max(d, d => d[1]))])
+                                    .rangeRound([height1 - marginBottom, marginTop]);
+
+                                  // Construct an area shape.
+                                const area = d3.area()
+                                    .x(d => x(d.data[0]))
+                                    .y0(d => y(d[0]))
+                                    .y1(d => y(d[1]));
+
+                                // Create the SVG container.
+                                const svg6 = d3.create("svg")
+                                    .attr("width", width1)
+                                    .attr("height", height1)
+                                    .attr("viewBox", [0, 0, width1 + 10, height1+40])
+                                    .attr("style", "max-width: 100%; height: 100%;");
+
+                                // Add the y-axis, remove the domain line, add grid lines and a label.
+                                svg6.append("g")
+                                    .attr("transform", `translate(${marginLeft},0)`)
+                                    .style("font-size", "18px")
+                                    .call(d3.axisLeft(y).ticks(height1 / 80))
+                                    .call(g => g.select(".domain").remove())
+                                    .call(g => g.selectAll(".tick line").clone()
+                                        .attr("x2", width1 - marginLeft - marginRight)
+                                        .attr("stroke-opacity", 0.1))
+                                    .call(g => g.append("text")
+
+                                        .attr("x", -marginLeft)
+                                        .attr("y", 10)
+                                        .attr("fill", "currentColor")
+                                        .attr("text-anchor", "start")
+                                        .text("↑ kWh"));
+                                const color1 = d3.scaleOrdinal()
+                                .domain(series.map(d => d.key))
+                                .range(d3.schemeTableau10);
+                                // Append a path for each series.
+                                svg6.append("g")
+                                  .selectAll()
+                                  .data(series)
+                                  .join("path")
+                                    .attr("fill", d => color1(d.key))
+                                    .attr("d", area)
+                                  .append("title")
+                                    .text(d => d.key);
+
+                                // Append the horizontal axis atop the area.
+                                svg6.append("g")
+                                    .attr("transform", `translate(0,${height1 - marginBottom})`)
+                                    .call(d3.axisBottom(x).tickSizeOuter(0))
+                                    .style("font-size", "18px");
+
+                                // Adjust the margin to accommodate the legend
+                                const marginRightLegend = 200; // Adjust this value based on your needs
+
+                                // Create a legend
+                                const legend = svg6.append("g")
+                                    .attr("transform", `translate(${width1 - marginRight - marginRightLegend}, ${marginTop})`)
+                                    .attr("font-family", "sans-serif")
+                                    .attr("font-size", 12)
+                                    .selectAll("g")
+                                    .data(series.map(d => d.key))
+                                    .join("g")
+                                    .attr("transform", (d, i) => `translate(0,${i * 20})`);
+
+                                legend.append("rect")
+                                    .attr("width", 18)
+                                    .attr("height", 18)
+                                    .attr("fill", d => color1(d));
+
+                                legend.append("text")
+                                    .attr("x", 24)
+                                    .attr("y", 9)
+                                    .attr("dy", "0.35em")
+                                    .text(d => d)
+                                    .attr("fill", "white");
+                                    dormPerPerson.append(svg6.node());
+                                });
+                              </script>
+
                         </div>
                     </div>
                 </div>
@@ -625,12 +643,12 @@
                           <p>Academic buildings are the heart of the campus and not suprisingly also the majority of the electirity use on campus,
                             lets dive into some possible reasons.
                           </p>
-                          <div id="graphAcademic">
+                          <div id="graphAcademic"> </div>
                             <script>
                               var data = d3.csv("src/Hourly_data/academic_2022-2023_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
                               // Convert Date objects to string representation for use as keys
                               const uniqueKeys = d3.union(data.map(d => d.building));
-                              console.log("Unique Keys:", uniqueKeys);
+                              
                               const series = d3.stack()
                                   .keys(uniqueKeys)
                                   .value(([, D], key) => {
@@ -724,8 +742,110 @@
                               graphAcademic.append(svg2.node());
                               });
                             </script>
+                            <p>In a similar note to dorms, do different academic buildings have different efficencies? Let's look
+                              at energy used per square foot.
+                            </p>
+                            <div id = "graphAcademicSq"></div>
+                            <script>
+                              var data = d3.csv("src/Hourly_data/academic_sq_2022_hourly.csv",function(d){return {date: new Date(d.date),building: d.building,kWh:+ d.kWh};}).then(data => {
+                              // Convert Date objects to string representation for use as keys
+                              const uniqueKeys = d3.union(data.map(d => d.building));
+                              
+                              const series = d3.stack()
+                                  .keys(uniqueKeys)
+                                  .value(([, D], key) => {
+                                    if (D.get(key) == undefined){
+                                      return 0;
+                                    }
+                                    return D.get(key).kWh;
+                                  })
+                                  (d3.index(data, d => d.date, d => d.building)); // get value for each series key and stack
+
+                                // Prepare the scales for positional and color encodings.
+                              const x = d3.scaleUtc()
+                                  .domain(d3.extent(data, d => d.date))
+                                  .range([marginLeft, width1 - marginRight]);
+
+
+                              const y = d3.scaleLinear()
+                                  .domain([0, d3.max(series, d => d3.max(d, d => d[1]))])
+                                  .rangeRound([height1 - marginBottom, marginTop]);
+
+                                // Construct an area shape.
+                              const area = d3.area()
+                                  .x(d => x(d.data[0]))
+                                  .y0(d => y(d[0]))
+                                  .y1(d => y(d[1]));
+
+                              // Create the SVG container.
+                              const svg9 = d3.create("svg")
+                                  .attr("width", width1)
+                                  .attr("height", height1)
+                                  .attr("viewBox", [0, 0, width1, height1])
+                                  .attr("style", "max-width: 100%; height: auto;");
+
+                              // Add the y-axis, remove the domain line, add grid lines and a label.
+                              svg9.append("g")
+                              .style("font-size", "14px")
+                                  .attr("transform", `translate(${marginLeft},0)`)
+                                  .call(d3.axisLeft(y).ticks(height1 / 80))
+                                  .call(g => g.select(".domain").remove())
+                                  .call(g => g.selectAll(".tick line").clone()
+                                      .attr("x2", width1 - marginLeft - marginRight)
+                                      .attr("stroke-opacity", 0.1))
+                                  .call(g => g.append("text")
+                                      .attr("x", -marginLeft)
+                                      .attr("y", 10)
+                                      .attr("fill", "currentColor")
+                                      .attr("text-anchor", "start")
+                                      .text("↑ kWh"));
+                              const color1 = d3.scaleOrdinal()
+                              .domain(series.map(d => d.key))
+                              .range(d3.schemeTableau10);
+                              // Append a path for each series.
+                              svg9.append("g")
+                                .selectAll()
+                                .data(series)
+                                .join("path")
+                                  .attr("fill", d => color1(d.key))
+                                  .attr("d", area)
+                                .append("title")
+                                  .text(d => d.key);
+
+                              // Append the horizontal axis atop the area.
+                              svg9.append("g")
+                              .style("font-size", "14px")
+                                  .attr("transform", `translate(0,${height1 - marginBottom})`)
+                                  .call(d3.axisBottom(x).tickSizeOuter(0));
+
+                                  const marginRightLegend = 200; // Adjust this value based on your needs
+
+                                  // Create a legend
+                                  const legend = svg9.append("g")
+                                      .attr("transform", `translate(${width1 - marginRight - marginRightLegend}, ${marginTop})`)
+                                      .attr("font-family", "sans-serif")
+                                      .attr("font-size", 12)
+                                      .selectAll("g")
+                                      .data(series.map(d => d.key))
+                                      .join("g")
+                                      .attr("transform", (d, i) => `translate(0,${i * 20})`);
+
+                                  legend.append("rect")
+                                      .attr("width", 18)
+                                      .attr("height", 18)
+                                      .attr("fill", d => color1(d));
+
+                                  legend.append("text")
+                                      .attr("x", 24)
+                                      .attr("y", 9)
+                                      .attr("dy", "0.35em")
+                                      .text(d => d)
+                                      .attr("fill", "white");
+                              graphAcademicSq.append(svg9.node());
+                              });
+                            </script>
                           </div>
-                      </div>
+                      
                   </div>
               </div>
           </div>
@@ -794,7 +914,7 @@
                                     .text("↑ kWh"));
                             const color1 = d3.scaleOrdinal()
                             .domain(series.map(d => d.key))
-                            .range(d3.schemeTableau10);
+                            .range(['red']);
                             // Append a path for each series.
                             svg3.append("g")
                               .selectAll()
@@ -810,8 +930,6 @@
                             .style("font-size", "14px")
                                 .attr("transform", `translate(0,${height1 - marginBottom})`)
                                 .call(d3.axisBottom(x).tickSizeOuter(0));
-
-
                             graphLights.append(svg3.node());
                             });
                           </script>
@@ -820,34 +938,18 @@
                 </div>
             </div>
         </div>
+        
         <div id="section09">
-          <div class="container z-depth-2">
+          <div class="container z-depth-3">
               <div class="row justify-content-center">
                   <div class="col-lg-8">
-                      <h3 class="oleo title text-center mb-3">Unique Areas</h3>
-                      <p>
-                      </p>
-                      <div class="UniqueGraph">
-                        <!-- Interactive graph for visualizing the energy usage of boiler room-->
-                      </div>
+                      <h3 class="oleo title text-center mb-3">Thanks for visiting!</h3>
+                      
                   </div>
               </div>
           </div>
+          
       </div>
-      <div id="section10">
-        <div class="container z-depth-2">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h3 class="oleo title text-center mb-3">Electricity Generation</h3>
-                    <p>
-                    </p>
-                    <div class="GenerationGraph">
-                      <!-- Graph for visualizing the energy generation-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 		</main>
 		
 	</div>

@@ -20,9 +20,9 @@ def filter_csv(input_file, output_file, search_string):
 
 if __name__ == "__main__":
     # Provide the paths and the search string
-    input_csv_path = 'src/Hourly_data/dorms_2022-2023_hourly.csv'
-    output_csv_path = 'src/Hourly_data/dorms_09-11-23_hourly.csv'
-    search_string = '2023-09-11'  # Replace with the string you're searching for
+    input_csv_path = 'src/Hourly_data/academic_sq2_2022-2023_hourly.csv'
+    output_csv_path = 'src/Hourly_data/academic_sq_2022_hourly.csv'
+    search_string = '2022-11-0'  # Replace with the string you're searching for
 
     # Call the function to filter the CSV
     filter_csv(input_csv_path, output_csv_path, search_string)

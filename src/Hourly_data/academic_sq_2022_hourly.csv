@@ -1,0 +1,1721 @@
+date,kWh,building
+2022-11-01 01:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-01 02:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-01 03:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-01 04:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-01 05:00:00,0.00041291844860640026,Carnegie Hall Main Electricity Meter
+2022-11-01 06:00:00,0.00041291844860640026,Carnegie Hall Main Electricity Meter
+2022-11-01 07:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-01 08:00:00,0.0007963427223123433,Carnegie Hall Main Electricity Meter
+2022-11-01 09:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-01 10:00:00,0.0010617902964164577,Carnegie Hall Main Electricity Meter
+2022-11-01 11:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-01 12:00:00,0.0010322961215160006,Carnegie Hall Main Electricity Meter
+2022-11-01 13:00:00,0.0009733077717150862,Carnegie Hall Main Electricity Meter
+2022-11-01 14:00:00,0.0012092611709187435,Carnegie Hall Main Electricity Meter
+2022-11-01 15:00:00,0.0012387553458192008,Carnegie Hall Main Electricity Meter
+2022-11-01 16:00:00,0.0012092611709187435,Carnegie Hall Main Electricity Meter
+2022-11-01 17:00:00,0.0010322961215160006,Carnegie Hall Main Electricity Meter
+2022-11-01 18:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-01 19:00:00,0.0009438135968146291,Carnegie Hall Main Electricity Meter
+2022-11-01 20:00:00,0.0009438135968146291,Carnegie Hall Main Electricity Meter
+2022-11-01 21:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-01 22:00:00,0.0008553310721132576,Carnegie Hall Main Electricity Meter
+2022-11-01 23:00:00,0.0007963427223123433,Carnegie Hall Main Electricity Meter
+2022-11-02 00:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-02 01:00:00,0.0002949417490045716,Carnegie Hall Main Electricity Meter
+2022-11-02 02:00:00,0.00026544757410411444,Carnegie Hall Main Electricity Meter
+2022-11-02 03:00:00,0.0002949417490045716,Carnegie Hall Main Electricity Meter
+2022-11-02 04:00:00,0.0002949417490045716,Carnegie Hall Main Electricity Meter
+2022-11-02 05:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-02 06:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-02 07:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-02 08:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-02 09:00:00,0.0007963427223123433,Carnegie Hall Main Electricity Meter
+2022-11-02 10:00:00,0.0010322961215160006,Carnegie Hall Main Electricity Meter
+2022-11-02 11:00:00,0.0012387553458192008,Carnegie Hall Main Electricity Meter
+2022-11-02 12:00:00,0.001297743695620115,Carnegie Hall Main Electricity Meter
+2022-11-02 13:00:00,0.0012092611709187435,Carnegie Hall Main Electricity Meter
+2022-11-02 14:00:00,0.001297743695620115,Carnegie Hall Main Electricity Meter
+2022-11-02 15:00:00,0.0012387553458192008,Carnegie Hall Main Electricity Meter
+2022-11-02 16:00:00,0.0012092611709187435,Carnegie Hall Main Electricity Meter
+2022-11-02 17:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-02 18:00:00,0.0009733077717150862,Carnegie Hall Main Electricity Meter
+2022-11-02 19:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-02 20:00:00,0.0009733077717150862,Carnegie Hall Main Electricity Meter
+2022-11-02 21:00:00,0.0010028019466155433,Carnegie Hall Main Electricity Meter
+2022-11-02 22:00:00,0.0008848252470137148,Carnegie Hall Main Electricity Meter
+2022-11-02 23:00:00,0.0008258368972128005,Carnegie Hall Main Electricity Meter
+2022-11-03 00:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-03 01:00:00,0.00026544757410411444,Carnegie Hall Main Electricity Meter
+2022-11-03 02:00:00,0.00023595339920365728,Carnegie Hall Main Electricity Meter
+2022-11-03 03:00:00,0.00023595339920365728,Carnegie Hall Main Electricity Meter
+2022-11-03 04:00:00,0.00023595339920365728,Carnegie Hall Main Electricity Meter
+2022-11-03 05:00:00,0.0002949417490045716,Carnegie Hall Main Electricity Meter
+2022-11-03 06:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-03 07:00:00,0.0002949417490045716,Carnegie Hall Main Electricity Meter
+2022-11-03 08:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-03 09:00:00,0.0009438135968146291,Carnegie Hall Main Electricity Meter
+2022-11-03 10:00:00,0.0011502728211178293,Carnegie Hall Main Electricity Meter
+2022-11-03 11:00:00,0.0012092611709187435,Carnegie Hall Main Electricity Meter
+2022-11-03 12:00:00,0.001297743695620115,Carnegie Hall Main Electricity Meter
+2022-11-03 13:00:00,0.0012092611709187435,Carnegie Hall Main Electricity Meter
+2022-11-03 14:00:00,0.0013567320454210294,Carnegie Hall Main Electricity Meter
+2022-11-03 15:00:00,0.001297743695620115,Carnegie Hall Main Electricity Meter
+2022-11-03 16:00:00,0.0011797669960182864,Carnegie Hall Main Electricity Meter
+2022-11-03 17:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-03 18:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-03 19:00:00,0.0008553310721132576,Carnegie Hall Main Electricity Meter
+2022-11-03 20:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-03 21:00:00,0.0008553310721132576,Carnegie Hall Main Electricity Meter
+2022-11-03 22:00:00,0.0008258368972128005,Carnegie Hall Main Electricity Meter
+2022-11-03 23:00:00,0.0007078601976109718,Carnegie Hall Main Electricity Meter
+2022-11-04 00:00:00,0.0002949417490045716,Carnegie Hall Main Electricity Meter
+2022-11-04 01:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-04 02:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-04 03:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-04 04:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-04 05:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-04 06:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-04 07:00:00,0.00041291844860640026,Carnegie Hall Main Electricity Meter
+2022-11-04 08:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-04 09:00:00,0.0008553310721132576,Carnegie Hall Main Electricity Meter
+2022-11-04 10:00:00,0.0010028019466155433,Carnegie Hall Main Electricity Meter
+2022-11-04 11:00:00,0.0011207786462173722,Carnegie Hall Main Electricity Meter
+2022-11-04 12:00:00,0.0012092611709187435,Carnegie Hall Main Electricity Meter
+2022-11-04 13:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-04 14:00:00,0.0011207786462173722,Carnegie Hall Main Electricity Meter
+2022-11-04 15:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-04 16:00:00,0.0010322961215160006,Carnegie Hall Main Electricity Meter
+2022-11-04 17:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-04 18:00:00,0.0008258368972128005,Carnegie Hall Main Electricity Meter
+2022-11-04 19:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-04 20:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-04 21:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-04 22:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-04 23:00:00,0.0007078601976109718,Carnegie Hall Main Electricity Meter
+2022-11-05 00:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-05 01:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-05 02:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-05 03:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-05 04:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-05 05:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-05 06:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-05 07:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-05 08:00:00,0.0007078601976109718,Carnegie Hall Main Electricity Meter
+2022-11-05 09:00:00,0.0006783660227105147,Carnegie Hall Main Electricity Meter
+2022-11-05 10:00:00,0.0006783660227105147,Carnegie Hall Main Electricity Meter
+2022-11-05 11:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-05 12:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-05 13:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-05 14:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-05 15:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-05 16:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-05 17:00:00,0.0006783660227105147,Carnegie Hall Main Electricity Meter
+2022-11-05 18:00:00,0.0006193776729096004,Carnegie Hall Main Electricity Meter
+2022-11-05 19:00:00,0.0006193776729096004,Carnegie Hall Main Electricity Meter
+2022-11-05 20:00:00,0.0006193776729096004,Carnegie Hall Main Electricity Meter
+2022-11-05 21:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-05 22:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-05 23:00:00,0.0006488718478100575,Carnegie Hall Main Electricity Meter
+2022-11-06 00:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-06 01:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-06 02:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-06 03:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-06 04:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-06 05:00:00,0.0003539300988054859,Carnegie Hall Main Electricity Meter
+2022-11-06 06:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-06 07:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-06 08:00:00,0.0006783660227105147,Carnegie Hall Main Electricity Meter
+2022-11-06 09:00:00,0.0007078601976109718,Carnegie Hall Main Electricity Meter
+2022-11-06 10:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-06 11:00:00,0.0007078601976109718,Carnegie Hall Main Electricity Meter
+2022-11-06 12:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-06 13:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-06 14:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-06 15:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-06 16:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-06 17:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-06 18:00:00,0.0008258368972128005,Carnegie Hall Main Electricity Meter
+2022-11-06 19:00:00,0.0008553310721132576,Carnegie Hall Main Electricity Meter
+2022-11-06 20:00:00,0.0008258368972128005,Carnegie Hall Main Electricity Meter
+2022-11-06 21:00:00,0.0008258368972128005,Carnegie Hall Main Electricity Meter
+2022-11-06 22:00:00,0.0007963427223123433,Carnegie Hall Main Electricity Meter
+2022-11-06 23:00:00,0.0007963427223123433,Carnegie Hall Main Electricity Meter
+2022-11-07 00:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-07 01:00:00,0.00041291844860640026,Carnegie Hall Main Electricity Meter
+2022-11-07 02:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-07 03:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-07 04:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-07 05:00:00,0.0004424126235068574,Carnegie Hall Main Electricity Meter
+2022-11-07 06:00:00,0.0005603893231086861,Carnegie Hall Main Electricity Meter
+2022-11-07 07:00:00,0.0005014009733077717,Carnegie Hall Main Electricity Meter
+2022-11-07 08:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-07 09:00:00,0.0008848252470137148,Carnegie Hall Main Electricity Meter
+2022-11-07 10:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-07 11:00:00,0.0012682495207196579,Carnegie Hall Main Electricity Meter
+2022-11-07 12:00:00,0.0012387553458192008,Carnegie Hall Main Electricity Meter
+2022-11-07 13:00:00,0.0012682495207196579,Carnegie Hall Main Electricity Meter
+2022-11-07 14:00:00,0.001297743695620115,Carnegie Hall Main Electricity Meter
+2022-11-07 15:00:00,0.0012387553458192008,Carnegie Hall Main Electricity Meter
+2022-11-07 16:00:00,0.0011797669960182864,Carnegie Hall Main Electricity Meter
+2022-11-07 17:00:00,0.0010617902964164577,Carnegie Hall Main Electricity Meter
+2022-11-07 18:00:00,0.0009733077717150862,Carnegie Hall Main Electricity Meter
+2022-11-07 19:00:00,0.0010028019466155433,Carnegie Hall Main Electricity Meter
+2022-11-07 20:00:00,0.0010617902964164577,Carnegie Hall Main Electricity Meter
+2022-11-07 21:00:00,0.0010028019466155433,Carnegie Hall Main Electricity Meter
+2022-11-07 22:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-07 23:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-08 00:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-08 01:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-08 02:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-08 03:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-08 04:00:00,0.00032443592390502874,Carnegie Hall Main Electricity Meter
+2022-11-08 05:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-08 06:00:00,0.00041291844860640026,Carnegie Hall Main Electricity Meter
+2022-11-08 07:00:00,0.00038342427370594305,Carnegie Hall Main Electricity Meter
+2022-11-08 08:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-08 09:00:00,0.0008848252470137148,Carnegie Hall Main Electricity Meter
+2022-11-08 10:00:00,0.0010322961215160006,Carnegie Hall Main Electricity Meter
+2022-11-08 11:00:00,0.0011797669960182864,Carnegie Hall Main Electricity Meter
+2022-11-08 12:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-08 13:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-08 14:00:00,0.0012387553458192008,Carnegie Hall Main Electricity Meter
+2022-11-08 15:00:00,0.0012682495207196579,Carnegie Hall Main Electricity Meter
+2022-11-08 16:00:00,0.0012092611709187435,Carnegie Hall Main Electricity Meter
+2022-11-08 17:00:00,0.0010912844713169148,Carnegie Hall Main Electricity Meter
+2022-11-08 18:00:00,0.0010028019466155433,Carnegie Hall Main Electricity Meter
+2022-11-08 19:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-08 20:00:00,0.0009438135968146291,Carnegie Hall Main Electricity Meter
+2022-11-08 21:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-08 22:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-08 23:00:00,0.0007668485474118861,Carnegie Hall Main Electricity Meter
+2022-11-09 00:00:00,0.00047190679840731456,Carnegie Hall Main Electricity Meter
+2022-11-09 01:00:00,0.00047190679840731456,Carnegie Hall Main Electricity Meter
+2022-11-09 02:00:00,0.0004424126235068574,Carnegie Hall Main Electricity Meter
+2022-11-09 03:00:00,0.0004424126235068574,Carnegie Hall Main Electricity Meter
+2022-11-09 04:00:00,0.0004424126235068574,Carnegie Hall Main Electricity Meter
+2022-11-09 05:00:00,0.0004424126235068574,Carnegie Hall Main Electricity Meter
+2022-11-09 06:00:00,0.0005308951482082289,Carnegie Hall Main Electricity Meter
+2022-11-09 07:00:00,0.0004424126235068574,Carnegie Hall Main Electricity Meter
+2022-11-09 08:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-09 09:00:00,0.0008553310721132576,Carnegie Hall Main Electricity Meter
+2022-11-09 10:00:00,0.0011207786462173722,Carnegie Hall Main Electricity Meter
+2022-11-09 11:00:00,0.001297743695620115,Carnegie Hall Main Electricity Meter
+2022-11-09 12:00:00,0.001297743695620115,Carnegie Hall Main Electricity Meter
+2022-11-09 13:00:00,0.0012387553458192008,Carnegie Hall Main Electricity Meter
+2022-11-09 14:00:00,0.0012682495207196579,Carnegie Hall Main Electricity Meter
+2022-11-09 15:00:00,0.0012682495207196579,Carnegie Hall Main Electricity Meter
+2022-11-09 16:00:00,0.0011797669960182864,Carnegie Hall Main Electricity Meter
+2022-11-09 17:00:00,0.0011207786462173722,Carnegie Hall Main Electricity Meter
+2022-11-09 18:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-09 19:00:00,0.0008848252470137148,Carnegie Hall Main Electricity Meter
+2022-11-09 20:00:00,0.0009438135968146291,Carnegie Hall Main Electricity Meter
+2022-11-09 21:00:00,0.0009143194219141719,Carnegie Hall Main Electricity Meter
+2022-11-09 22:00:00,0.0008258368972128005,Carnegie Hall Main Electricity Meter
+2022-11-09 23:00:00,0.000737354372511429,Carnegie Hall Main Electricity Meter
+2022-11-01 01:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-01 02:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-01 03:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-01 04:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-01 05:00:00,0.0003767829909392662,Humanities Bldg Main Electricity Meter
+2022-11-01 06:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-01 07:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-01 08:00:00,0.0007535659818785324,Humanities Bldg Main Electricity Meter
+2022-11-01 09:00:00,0.0008432762178164528,Humanities Bldg Main Electricity Meter
+2022-11-01 10:00:00,0.0010765228312550462,Humanities Bldg Main Electricity Meter
+2022-11-01 11:00:00,0.001220059208755719,Humanities Bldg Main Electricity Meter
+2022-11-01 12:00:00,0.0011482910200053826,Humanities Bldg Main Electricity Meter
+2022-11-01 13:00:00,0.0010765228312550462,Humanities Bldg Main Electricity Meter
+2022-11-01 14:00:00,0.0011303489728177985,Humanities Bldg Main Electricity Meter
+2022-11-01 15:00:00,0.001202117161568135,Humanities Bldg Main Electricity Meter
+2022-11-01 16:00:00,0.001238001255943303,Humanities Bldg Main Electricity Meter
+2022-11-01 17:00:00,0.0011841751143805508,Humanities Bldg Main Electricity Meter
+2022-11-01 18:00:00,0.0010765228312550462,Humanities Bldg Main Electricity Meter
+2022-11-01 19:00:00,0.0010944648784426303,Humanities Bldg Main Electricity Meter
+2022-11-01 20:00:00,0.001040638736879878,Humanities Bldg Main Electricity Meter
+2022-11-01 21:00:00,0.0009688705481295416,Humanities Bldg Main Electricity Meter
+2022-11-01 22:00:00,0.0009150444065667893,Humanities Bldg Main Electricity Meter
+2022-11-01 23:00:00,0.0008432762178164528,Humanities Bldg Main Electricity Meter
+2022-11-02 00:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-02 01:00:00,0.00025118866062617747,Humanities Bldg Main Electricity Meter
+2022-11-02 02:00:00,0.00025118866062617747,Humanities Bldg Main Electricity Meter
+2022-11-02 03:00:00,0.00025118866062617747,Humanities Bldg Main Electricity Meter
+2022-11-02 04:00:00,0.00025118866062617747,Humanities Bldg Main Electricity Meter
+2022-11-02 05:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-02 06:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-02 07:00:00,0.00026913070781376156,Humanities Bldg Main Electricity Meter
+2022-11-02 08:00:00,0.0007715080290661164,Humanities Bldg Main Electricity Meter
+2022-11-02 09:00:00,0.0008432762178164528,Humanities Bldg Main Electricity Meter
+2022-11-02 10:00:00,0.0009509285009419575,Humanities Bldg Main Electricity Meter
+2022-11-02 11:00:00,0.0011303489728177985,Humanities Bldg Main Electricity Meter
+2022-11-02 12:00:00,0.0012559433031308872,Humanities Bldg Main Electricity Meter
+2022-11-02 13:00:00,0.0013456535390688076,Humanities Bldg Main Electricity Meter
+2022-11-02 14:00:00,0.001381537633443976,Humanities Bldg Main Electricity Meter
+2022-11-02 15:00:00,0.0012918273975060554,Humanities Bldg Main Electricity Meter
+2022-11-02 16:00:00,0.001238001255943303,Humanities Bldg Main Electricity Meter
+2022-11-02 17:00:00,0.0011662330671929667,Humanities Bldg Main Electricity Meter
+2022-11-02 18:00:00,0.001040638736879878,Humanities Bldg Main Electricity Meter
+2022-11-02 19:00:00,0.0010944648784426303,Humanities Bldg Main Electricity Meter
+2022-11-02 20:00:00,0.001040638736879878,Humanities Bldg Main Electricity Meter
+2022-11-02 21:00:00,0.001022696689692294,Humanities Bldg Main Electricity Meter
+2022-11-02 22:00:00,0.001040638736879878,Humanities Bldg Main Electricity Meter
+2022-11-02 23:00:00,0.0010047546425047099,Humanities Bldg Main Electricity Meter
+2022-11-03 00:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-03 01:00:00,0.00026913070781376156,Humanities Bldg Main Electricity Meter
+2022-11-03 02:00:00,0.00025118866062617747,Humanities Bldg Main Electricity Meter
+2022-11-03 03:00:00,0.00025118866062617747,Humanities Bldg Main Electricity Meter
+2022-11-03 04:00:00,0.00025118866062617747,Humanities Bldg Main Electricity Meter
+2022-11-03 05:00:00,0.00026913070781376156,Humanities Bldg Main Electricity Meter
+2022-11-03 06:00:00,0.00026913070781376156,Humanities Bldg Main Electricity Meter
+2022-11-03 07:00:00,0.00026913070781376156,Humanities Bldg Main Electricity Meter
+2022-11-03 08:00:00,0.0009329864537543734,Humanities Bldg Main Electricity Meter
+2022-11-03 09:00:00,0.0009688705481295416,Humanities Bldg Main Electricity Meter
+2022-11-03 10:00:00,0.0011482910200053826,Humanities Bldg Main Electricity Meter
+2022-11-03 11:00:00,0.001238001255943303,Humanities Bldg Main Electricity Meter
+2022-11-03 12:00:00,0.0011662330671929667,Humanities Bldg Main Electricity Meter
+2022-11-03 13:00:00,0.0011124069256302144,Humanities Bldg Main Electricity Meter
+2022-11-03 14:00:00,0.0011662330671929667,Humanities Bldg Main Electricity Meter
+2022-11-03 15:00:00,0.001202117161568135,Humanities Bldg Main Electricity Meter
+2022-11-03 16:00:00,0.0011841751143805508,Humanities Bldg Main Electricity Meter
+2022-11-03 17:00:00,0.0010944648784426303,Humanities Bldg Main Electricity Meter
+2022-11-03 18:00:00,0.0009688705481295416,Humanities Bldg Main Electricity Meter
+2022-11-03 19:00:00,0.0009329864537543734,Humanities Bldg Main Electricity Meter
+2022-11-03 20:00:00,0.0009150444065667893,Humanities Bldg Main Electricity Meter
+2022-11-03 21:00:00,0.0008791603121916211,Humanities Bldg Main Electricity Meter
+2022-11-03 22:00:00,0.0008432762178164528,Humanities Bldg Main Electricity Meter
+2022-11-03 23:00:00,0.0007894500762537005,Humanities Bldg Main Electricity Meter
+2022-11-04 00:00:00,0.00025118866062617747,Humanities Bldg Main Electricity Meter
+2022-11-04 01:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-04 02:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-04 03:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-04 04:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-04 05:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-04 06:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-04 07:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-04 08:00:00,0.0008791603121916211,Humanities Bldg Main Electricity Meter
+2022-11-04 09:00:00,0.0008432762178164528,Humanities Bldg Main Electricity Meter
+2022-11-04 10:00:00,0.0009509285009419575,Humanities Bldg Main Electricity Meter
+2022-11-04 11:00:00,0.0010765228312550462,Humanities Bldg Main Electricity Meter
+2022-11-04 12:00:00,0.0011303489728177985,Humanities Bldg Main Electricity Meter
+2022-11-04 13:00:00,0.0011124069256302144,Humanities Bldg Main Electricity Meter
+2022-11-04 14:00:00,0.0011662330671929667,Humanities Bldg Main Electricity Meter
+2022-11-04 15:00:00,0.0011482910200053826,Humanities Bldg Main Electricity Meter
+2022-11-04 16:00:00,0.0010944648784426303,Humanities Bldg Main Electricity Meter
+2022-11-04 17:00:00,0.0009509285009419575,Humanities Bldg Main Electricity Meter
+2022-11-04 18:00:00,0.0008432762178164528,Humanities Bldg Main Electricity Meter
+2022-11-04 19:00:00,0.0007715080290661164,Humanities Bldg Main Electricity Meter
+2022-11-04 20:00:00,0.0007535659818785324,Humanities Bldg Main Electricity Meter
+2022-11-04 21:00:00,0.0007176818875033642,Humanities Bldg Main Electricity Meter
+2022-11-04 22:00:00,0.0007176818875033642,Humanities Bldg Main Electricity Meter
+2022-11-04 23:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-05 00:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-05 01:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-05 02:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-05 03:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-05 04:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-05 05:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-05 06:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-05 07:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-05 08:00:00,0.0007176818875033642,Humanities Bldg Main Electricity Meter
+2022-11-05 09:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-05 10:00:00,0.0006638557459406118,Humanities Bldg Main Electricity Meter
+2022-11-05 11:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-05 12:00:00,0.0006638557459406118,Humanities Bldg Main Electricity Meter
+2022-11-05 13:00:00,0.0006997398403157801,Humanities Bldg Main Electricity Meter
+2022-11-05 14:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-05 15:00:00,0.0006997398403157801,Humanities Bldg Main Electricity Meter
+2022-11-05 16:00:00,0.0006997398403157801,Humanities Bldg Main Electricity Meter
+2022-11-05 17:00:00,0.0006997398403157801,Humanities Bldg Main Electricity Meter
+2022-11-05 18:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-05 19:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-05 20:00:00,0.0006638557459406118,Humanities Bldg Main Electricity Meter
+2022-11-05 21:00:00,0.0006459136987530277,Humanities Bldg Main Electricity Meter
+2022-11-05 22:00:00,0.0006459136987530277,Humanities Bldg Main Electricity Meter
+2022-11-05 23:00:00,0.0006459136987530277,Humanities Bldg Main Electricity Meter
+2022-11-06 00:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-06 01:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-06 02:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-06 03:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-06 04:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-06 05:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-06 06:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-06 07:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-06 08:00:00,0.0006279716515654436,Humanities Bldg Main Electricity Meter
+2022-11-06 09:00:00,0.0006100296043778595,Humanities Bldg Main Electricity Meter
+2022-11-06 10:00:00,0.0006100296043778595,Humanities Bldg Main Electricity Meter
+2022-11-06 11:00:00,0.0006638557459406118,Humanities Bldg Main Electricity Meter
+2022-11-06 12:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-06 13:00:00,0.0007176818875033642,Humanities Bldg Main Electricity Meter
+2022-11-06 14:00:00,0.0007356239346909483,Humanities Bldg Main Electricity Meter
+2022-11-06 15:00:00,0.0007535659818785324,Humanities Bldg Main Electricity Meter
+2022-11-06 16:00:00,0.0007356239346909483,Humanities Bldg Main Electricity Meter
+2022-11-06 17:00:00,0.0007535659818785324,Humanities Bldg Main Electricity Meter
+2022-11-06 18:00:00,0.0007176818875033642,Humanities Bldg Main Electricity Meter
+2022-11-06 19:00:00,0.0007356239346909483,Humanities Bldg Main Electricity Meter
+2022-11-06 20:00:00,0.0007356239346909483,Humanities Bldg Main Electricity Meter
+2022-11-06 21:00:00,0.0006638557459406118,Humanities Bldg Main Electricity Meter
+2022-11-06 22:00:00,0.0006638557459406118,Humanities Bldg Main Electricity Meter
+2022-11-06 23:00:00,0.0006459136987530277,Humanities Bldg Main Electricity Meter
+2022-11-07 00:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-07 01:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-07 02:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-07 03:00:00,0.00028707275500134565,Humanities Bldg Main Electricity Meter
+2022-11-07 04:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-07 05:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-07 06:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-07 07:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-07 08:00:00,0.0006459136987530277,Humanities Bldg Main Electricity Meter
+2022-11-07 09:00:00,0.0007715080290661164,Humanities Bldg Main Electricity Meter
+2022-11-07 10:00:00,0.0009329864537543734,Humanities Bldg Main Electricity Meter
+2022-11-07 11:00:00,0.0010765228312550462,Humanities Bldg Main Electricity Meter
+2022-11-07 12:00:00,0.0011124069256302144,Humanities Bldg Main Electricity Meter
+2022-11-07 13:00:00,0.001040638736879878,Humanities Bldg Main Electricity Meter
+2022-11-07 14:00:00,0.0010765228312550462,Humanities Bldg Main Electricity Meter
+2022-11-07 15:00:00,0.0010585807840674622,Humanities Bldg Main Electricity Meter
+2022-11-07 16:00:00,0.0009868125953171258,Humanities Bldg Main Electricity Meter
+2022-11-07 17:00:00,0.0008971023593792052,Humanities Bldg Main Electricity Meter
+2022-11-07 18:00:00,0.0008253341706288687,Humanities Bldg Main Electricity Meter
+2022-11-07 19:00:00,0.0008253341706288687,Humanities Bldg Main Electricity Meter
+2022-11-07 20:00:00,0.0007535659818785324,Humanities Bldg Main Electricity Meter
+2022-11-07 21:00:00,0.0007356239346909483,Humanities Bldg Main Electricity Meter
+2022-11-07 22:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-07 23:00:00,0.000681797793128196,Humanities Bldg Main Electricity Meter
+2022-11-08 00:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-08 01:00:00,0.00030501480218892975,Humanities Bldg Main Electricity Meter
+2022-11-08 02:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-08 03:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-08 04:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-08 05:00:00,0.0003588409437516821,Humanities Bldg Main Electricity Meter
+2022-11-08 06:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-08 07:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-08 08:00:00,0.0006279716515654436,Humanities Bldg Main Electricity Meter
+2022-11-08 09:00:00,0.0007535659818785324,Humanities Bldg Main Electricity Meter
+2022-11-08 10:00:00,0.0008971023593792052,Humanities Bldg Main Electricity Meter
+2022-11-08 11:00:00,0.0009509285009419575,Humanities Bldg Main Electricity Meter
+2022-11-08 12:00:00,0.0009150444065667893,Humanities Bldg Main Electricity Meter
+2022-11-08 13:00:00,0.0008791603121916211,Humanities Bldg Main Electricity Meter
+2022-11-08 14:00:00,0.0010047546425047099,Humanities Bldg Main Electricity Meter
+2022-11-08 15:00:00,0.0010585807840674622,Humanities Bldg Main Electricity Meter
+2022-11-08 16:00:00,0.001040638736879878,Humanities Bldg Main Electricity Meter
+2022-11-08 17:00:00,0.0009509285009419575,Humanities Bldg Main Electricity Meter
+2022-11-08 18:00:00,0.0008612182650040369,Humanities Bldg Main Electricity Meter
+2022-11-08 19:00:00,0.0007894500762537005,Humanities Bldg Main Electricity Meter
+2022-11-08 20:00:00,0.0007715080290661164,Humanities Bldg Main Electricity Meter
+2022-11-08 21:00:00,0.0007535659818785324,Humanities Bldg Main Electricity Meter
+2022-11-08 22:00:00,0.0007356239346909483,Humanities Bldg Main Electricity Meter
+2022-11-08 23:00:00,0.0006997398403157801,Humanities Bldg Main Electricity Meter
+2022-11-09 00:00:00,0.0003588409437516821,Humanities Bldg Main Electricity Meter
+2022-11-09 01:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-09 02:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-09 03:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-09 04:00:00,0.00032295684937651384,Humanities Bldg Main Electricity Meter
+2022-11-09 05:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-09 06:00:00,0.0003588409437516821,Humanities Bldg Main Electricity Meter
+2022-11-09 07:00:00,0.000340898896564098,Humanities Bldg Main Electricity Meter
+2022-11-09 08:00:00,0.0006638557459406118,Humanities Bldg Main Electricity Meter
+2022-11-09 09:00:00,0.0007535659818785324,Humanities Bldg Main Electricity Meter
+2022-11-09 10:00:00,0.0008971023593792052,Humanities Bldg Main Electricity Meter
+2022-11-09 11:00:00,0.001022696689692294,Humanities Bldg Main Electricity Meter
+2022-11-09 12:00:00,0.0010585807840674622,Humanities Bldg Main Electricity Meter
+2022-11-09 13:00:00,0.0010765228312550462,Humanities Bldg Main Electricity Meter
+2022-11-09 14:00:00,0.0011662330671929667,Humanities Bldg Main Electricity Meter
+2022-11-09 15:00:00,0.0011303489728177985,Humanities Bldg Main Electricity Meter
+2022-11-09 16:00:00,0.0010944648784426303,Humanities Bldg Main Electricity Meter
+2022-11-09 17:00:00,0.001040638736879878,Humanities Bldg Main Electricity Meter
+2022-11-09 18:00:00,0.0009329864537543734,Humanities Bldg Main Electricity Meter
+2022-11-09 19:00:00,0.0008971023593792052,Humanities Bldg Main Electricity Meter
+2022-11-09 20:00:00,0.0008253341706288687,Humanities Bldg Main Electricity Meter
+2022-11-09 21:00:00,0.0007715080290661164,Humanities Bldg Main Electricity Meter
+2022-11-09 22:00:00,0.0007356239346909483,Humanities Bldg Main Electricity Meter
+2022-11-09 23:00:00,0.0006997398403157801,Humanities Bldg Main Electricity Meter
+2022-11-01 01:00:00,0.0004840397697540555,Music Main Electricity Meter
+2022-11-01 02:00:00,0.0004840397697540555,Music Main Electricity Meter
+2022-11-01 03:00:00,0.0004971219256933542,Music Main Electricity Meter
+2022-11-01 04:00:00,0.0004840397697540555,Music Main Electricity Meter
+2022-11-01 05:00:00,0.0005363683935112507,Music Main Electricity Meter
+2022-11-01 06:00:00,0.000575614861329147,Music Main Electricity Meter
+2022-11-01 07:00:00,0.0006017791732077447,Music Main Electricity Meter
+2022-11-01 08:00:00,0.0008895866038723182,Music Main Electricity Meter
+2022-11-01 09:00:00,0.0009288330716902145,Music Main Electricity Meter
+2022-11-01 10:00:00,0.0010204081632653062,Music Main Electricity Meter
+2022-11-01 11:00:00,0.0010596546310832026,Music Main Electricity Meter
+2022-11-01 12:00:00,0.0012166405023547881,Music Main Electricity Meter
+2022-11-01 13:00:00,0.001229722658294087,Music Main Electricity Meter
+2022-11-01 14:00:00,0.0013212977498691784,Music Main Electricity Meter
+2022-11-01 15:00:00,0.0012951334379905808,Music Main Electricity Meter
+2022-11-01 16:00:00,0.0013867085295656725,Music Main Electricity Meter
+2022-11-01 17:00:00,0.0015436944008372579,Music Main Electricity Meter
+2022-11-01 18:00:00,0.0013605442176870747,Music Main Electricity Meter
+2022-11-01 19:00:00,0.001282051282051282,Music Main Electricity Meter
+2022-11-01 20:00:00,0.001229722658294087,Music Main Electricity Meter
+2022-11-01 21:00:00,0.0012035583464154894,Music Main Electricity Meter
+2022-11-01 22:00:00,0.0011381475667189952,Music Main Electricity Meter
+2022-11-01 23:00:00,0.0010204081632653062,Music Main Electricity Meter
+2022-11-02 00:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-02 01:00:00,0.0005363683935112507,Music Main Electricity Meter
+2022-11-02 02:00:00,0.0005494505494505495,Music Main Electricity Meter
+2022-11-02 03:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-02 04:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-02 05:00:00,0.0005363683935112507,Music Main Electricity Meter
+2022-11-02 06:00:00,0.0005494505494505495,Music Main Electricity Meter
+2022-11-02 07:00:00,0.0006541077969649398,Music Main Electricity Meter
+2022-11-02 08:00:00,0.0009157509157509158,Music Main Electricity Meter
+2022-11-02 09:00:00,0.0009288330716902145,Music Main Electricity Meter
+2022-11-02 10:00:00,0.0009157509157509158,Music Main Electricity Meter
+2022-11-02 11:00:00,0.0009419152276295133,Music Main Electricity Meter
+2022-11-02 12:00:00,0.0009942438513867084,Music Main Electricity Meter
+2022-11-02 13:00:00,0.0011381475667189952,Music Main Electricity Meter
+2022-11-02 14:00:00,0.001282051282051282,Music Main Electricity Meter
+2022-11-02 15:00:00,0.001098901098901099,Music Main Electricity Meter
+2022-11-02 16:00:00,0.0012166405023547881,Music Main Electricity Meter
+2022-11-02 17:00:00,0.0013736263736263737,Music Main Electricity Meter
+2022-11-02 18:00:00,0.0012428048142333857,Music Main Electricity Meter
+2022-11-02 19:00:00,0.0011119832548403977,Music Main Electricity Meter
+2022-11-02 20:00:00,0.000968079539508111,Music Main Electricity Meter
+2022-11-02 21:00:00,0.000968079539508111,Music Main Electricity Meter
+2022-11-02 22:00:00,0.0009288330716902145,Music Main Electricity Meter
+2022-11-02 23:00:00,0.0008765044479330194,Music Main Electricity Meter
+2022-11-03 00:00:00,0.0006148613291470435,Music Main Electricity Meter
+2022-11-03 01:00:00,0.0006017791732077447,Music Main Electricity Meter
+2022-11-03 02:00:00,0.000575614861329147,Music Main Electricity Meter
+2022-11-03 03:00:00,0.0005625327053898482,Music Main Electricity Meter
+2022-11-03 04:00:00,0.0005494505494505495,Music Main Electricity Meter
+2022-11-03 05:00:00,0.000575614861329147,Music Main Electricity Meter
+2022-11-03 06:00:00,0.0006279434850863422,Music Main Electricity Meter
+2022-11-03 07:00:00,0.0006541077969649398,Music Main Electricity Meter
+2022-11-03 08:00:00,0.0010727367870225013,Music Main Electricity Meter
+2022-11-03 09:00:00,0.0010465724751439038,Music Main Electricity Meter
+2022-11-03 10:00:00,0.0010727367870225013,Music Main Electricity Meter
+2022-11-03 11:00:00,0.0011381475667189952,Music Main Electricity Meter
+2022-11-03 12:00:00,0.0012558869701726845,Music Main Electricity Meter
+2022-11-03 13:00:00,0.001347462061747776,Music Main Electricity Meter
+2022-11-03 14:00:00,0.0012035583464154894,Music Main Electricity Meter
+2022-11-03 15:00:00,0.0011773940345368916,Music Main Electricity Meter
+2022-11-03 16:00:00,0.0012035583464154894,Music Main Electricity Meter
+2022-11-03 17:00:00,0.0011773940345368916,Music Main Electricity Meter
+2022-11-03 18:00:00,0.0010073260073260074,Music Main Electricity Meter
+2022-11-03 19:00:00,0.0011904761904761906,Music Main Electricity Meter
+2022-11-03 20:00:00,0.0012035583464154894,Music Main Electricity Meter
+2022-11-03 21:00:00,0.001151229722658294,Music Main Electricity Meter
+2022-11-03 22:00:00,0.0009419152276295133,Music Main Electricity Meter
+2022-11-03 23:00:00,0.000837257980115123,Music Main Electricity Meter
+2022-11-04 00:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-04 01:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-04 02:00:00,0.0004971219256933542,Music Main Electricity Meter
+2022-11-04 03:00:00,0.0004971219256933542,Music Main Electricity Meter
+2022-11-04 04:00:00,0.0004971219256933542,Music Main Electricity Meter
+2022-11-04 05:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-04 06:00:00,0.0005625327053898482,Music Main Electricity Meter
+2022-11-04 07:00:00,0.0007718472004186289,Music Main Electricity Meter
+2022-11-04 08:00:00,0.0010465724751439038,Music Main Electricity Meter
+2022-11-04 09:00:00,0.0008503401360544217,Music Main Electricity Meter
+2022-11-04 10:00:00,0.0011381475667189952,Music Main Electricity Meter
+2022-11-04 11:00:00,0.0011773940345368916,Music Main Electricity Meter
+2022-11-04 12:00:00,0.0012166405023547881,Music Main Electricity Meter
+2022-11-04 13:00:00,0.0009549973835688121,Music Main Electricity Meter
+2022-11-04 14:00:00,0.0008895866038723182,Music Main Electricity Meter
+2022-11-04 15:00:00,0.0011250654107796965,Music Main Electricity Meter
+2022-11-04 16:00:00,0.0011643118785975928,Music Main Electricity Meter
+2022-11-04 17:00:00,0.0011643118785975928,Music Main Electricity Meter
+2022-11-04 18:00:00,0.0009549973835688121,Music Main Electricity Meter
+2022-11-04 19:00:00,0.0007587650444793302,Music Main Electricity Meter
+2022-11-04 20:00:00,0.0007326007326007326,Music Main Electricity Meter
+2022-11-04 21:00:00,0.0007195185766614338,Music Main Electricity Meter
+2022-11-04 22:00:00,0.0007195185766614338,Music Main Electricity Meter
+2022-11-04 23:00:00,0.0007195185766614338,Music Main Electricity Meter
+2022-11-05 00:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-05 01:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-05 02:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-05 03:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-05 04:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-05 05:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-05 06:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-05 07:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-05 08:00:00,0.0007195185766614338,Music Main Electricity Meter
+2022-11-05 09:00:00,0.0006671899529042386,Music Main Electricity Meter
+2022-11-05 10:00:00,0.0007587650444793302,Music Main Electricity Meter
+2022-11-05 11:00:00,0.0008895866038723182,Music Main Electricity Meter
+2022-11-05 12:00:00,0.0009288330716902145,Music Main Electricity Meter
+2022-11-05 13:00:00,0.0009288330716902145,Music Main Electricity Meter
+2022-11-05 14:00:00,0.000968079539508111,Music Main Electricity Meter
+2022-11-05 15:00:00,0.0009811616954474097,Music Main Electricity Meter
+2022-11-05 16:00:00,0.000902668759811617,Music Main Electricity Meter
+2022-11-05 17:00:00,0.0008634222919937205,Music Main Electricity Meter
+2022-11-05 18:00:00,0.0008634222919937205,Music Main Electricity Meter
+2022-11-05 19:00:00,0.0008634222919937205,Music Main Electricity Meter
+2022-11-05 20:00:00,0.0008765044479330194,Music Main Electricity Meter
+2022-11-05 21:00:00,0.0008634222919937205,Music Main Electricity Meter
+2022-11-05 22:00:00,0.0009157509157509158,Music Main Electricity Meter
+2022-11-05 23:00:00,0.0008895866038723182,Music Main Electricity Meter
+2022-11-06 00:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-06 01:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-06 02:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-06 03:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-06 04:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-06 05:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-06 06:00:00,0.0005363683935112507,Music Main Electricity Meter
+2022-11-06 07:00:00,0.0005363683935112507,Music Main Electricity Meter
+2022-11-06 08:00:00,0.0006802721088435374,Music Main Electricity Meter
+2022-11-06 09:00:00,0.0006671899529042386,Music Main Electricity Meter
+2022-11-06 10:00:00,0.0006671899529042386,Music Main Electricity Meter
+2022-11-06 11:00:00,0.0006671899529042386,Music Main Electricity Meter
+2022-11-06 12:00:00,0.0006802721088435374,Music Main Electricity Meter
+2022-11-06 13:00:00,0.0006933542647828363,Music Main Electricity Meter
+2022-11-06 14:00:00,0.000706436420722135,Music Main Electricity Meter
+2022-11-06 15:00:00,0.0007195185766614338,Music Main Electricity Meter
+2022-11-06 16:00:00,0.000706436420722135,Music Main Electricity Meter
+2022-11-06 17:00:00,0.0006802721088435374,Music Main Electricity Meter
+2022-11-06 18:00:00,0.0007195185766614338,Music Main Electricity Meter
+2022-11-06 19:00:00,0.000706436420722135,Music Main Electricity Meter
+2022-11-06 20:00:00,0.000706436420722135,Music Main Electricity Meter
+2022-11-06 21:00:00,0.0006802721088435374,Music Main Electricity Meter
+2022-11-06 22:00:00,0.000706436420722135,Music Main Electricity Meter
+2022-11-06 23:00:00,0.0007195185766614338,Music Main Electricity Meter
+2022-11-07 00:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-07 01:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-07 02:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-07 03:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-07 04:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-07 05:00:00,0.0005363683935112507,Music Main Electricity Meter
+2022-11-07 06:00:00,0.000575614861329147,Music Main Electricity Meter
+2022-11-07 07:00:00,0.0007587650444793302,Music Main Electricity Meter
+2022-11-07 08:00:00,0.000968079539508111,Music Main Electricity Meter
+2022-11-07 09:00:00,0.0008503401360544217,Music Main Electricity Meter
+2022-11-07 10:00:00,0.0009419152276295133,Music Main Electricity Meter
+2022-11-07 11:00:00,0.0010727367870225013,Music Main Electricity Meter
+2022-11-07 12:00:00,0.0012558869701726845,Music Main Electricity Meter
+2022-11-07 13:00:00,0.0011250654107796965,Music Main Electricity Meter
+2022-11-07 14:00:00,0.000902668759811617,Music Main Electricity Meter
+2022-11-07 15:00:00,0.000968079539508111,Music Main Electricity Meter
+2022-11-07 16:00:00,0.0009157509157509158,Music Main Electricity Meter
+2022-11-07 17:00:00,0.001033490319204605,Music Main Electricity Meter
+2022-11-07 18:00:00,0.0010858189429618001,Music Main Electricity Meter
+2022-11-07 19:00:00,0.0010596546310832026,Music Main Electricity Meter
+2022-11-07 20:00:00,0.0008895866038723182,Music Main Electricity Meter
+2022-11-07 21:00:00,0.0008895866038723182,Music Main Electricity Meter
+2022-11-07 22:00:00,0.0007587650444793302,Music Main Electricity Meter
+2022-11-07 23:00:00,0.0007849293563579278,Music Main Electricity Meter
+2022-11-08 00:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-08 01:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-08 02:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-08 03:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-08 04:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-08 05:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-08 06:00:00,0.0005886970172684458,Music Main Electricity Meter
+2022-11-08 07:00:00,0.000641025641025641,Music Main Electricity Meter
+2022-11-08 08:00:00,0.0008765044479330194,Music Main Electricity Meter
+2022-11-08 09:00:00,0.000968079539508111,Music Main Electricity Meter
+2022-11-08 10:00:00,0.0010073260073260074,Music Main Electricity Meter
+2022-11-08 11:00:00,0.0009942438513867084,Music Main Electricity Meter
+2022-11-08 12:00:00,0.0010204081632653062,Music Main Electricity Meter
+2022-11-08 13:00:00,0.0010727367870225013,Music Main Electricity Meter
+2022-11-08 14:00:00,0.0011119832548403977,Music Main Electricity Meter
+2022-11-08 15:00:00,0.0011250654107796965,Music Main Electricity Meter
+2022-11-08 16:00:00,0.001098901098901099,Music Main Electricity Meter
+2022-11-08 17:00:00,0.0010596546310832026,Music Main Electricity Meter
+2022-11-08 18:00:00,0.0009157509157509158,Music Main Electricity Meter
+2022-11-08 19:00:00,0.000837257980115123,Music Main Electricity Meter
+2022-11-08 20:00:00,0.0007849293563579278,Music Main Electricity Meter
+2022-11-08 21:00:00,0.0007587650444793302,Music Main Electricity Meter
+2022-11-08 22:00:00,0.0007326007326007326,Music Main Electricity Meter
+2022-11-08 23:00:00,0.000706436420722135,Music Main Electricity Meter
+2022-11-09 00:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-09 01:00:00,0.0005232862375719519,Music Main Electricity Meter
+2022-11-09 02:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-09 03:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-09 04:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-09 05:00:00,0.0005102040816326531,Music Main Electricity Meter
+2022-11-09 06:00:00,0.000575614861329147,Music Main Electricity Meter
+2022-11-09 07:00:00,0.000641025641025641,Music Main Electricity Meter
+2022-11-09 08:00:00,0.0008895866038723182,Music Main Electricity Meter
+2022-11-09 09:00:00,0.0008765044479330194,Music Main Electricity Meter
+2022-11-09 10:00:00,0.0009549973835688121,Music Main Electricity Meter
+2022-11-09 11:00:00,0.0009942438513867084,Music Main Electricity Meter
+2022-11-09 12:00:00,0.0010727367870225013,Music Main Electricity Meter
+2022-11-09 13:00:00,0.0010727367870225013,Music Main Electricity Meter
+2022-11-09 14:00:00,0.0009942438513867084,Music Main Electricity Meter
+2022-11-09 15:00:00,0.001151229722658294,Music Main Electricity Meter
+2022-11-09 16:00:00,0.0010596546310832026,Music Main Electricity Meter
+2022-11-09 17:00:00,0.0012428048142333857,Music Main Electricity Meter
+2022-11-09 18:00:00,0.0011381475667189952,Music Main Electricity Meter
+2022-11-09 19:00:00,0.0010073260073260074,Music Main Electricity Meter
+2022-11-09 20:00:00,0.0008110936682365254,Music Main Electricity Meter
+2022-11-09 21:00:00,0.0007980115122972266,Music Main Electricity Meter
+2022-11-09 22:00:00,0.0008634222919937205,Music Main Electricity Meter
+2022-11-09 23:00:00,0.0008895866038723182,Music Main Electricity Meter
+2022-11-01 01:00:00,0.0003927589531188631,Old Main Electricity Meter
+2022-11-01 02:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-01 03:00:00,0.0004998750312421895,Old Main Electricity Meter
+2022-11-01 04:00:00,0.0004998750312421895,Old Main Electricity Meter
+2022-11-01 05:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-01 06:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-01 07:00:00,0.0006784018281144,Old Main Electricity Meter
+2022-11-01 08:00:00,0.0008926339843610526,Old Main Electricity Meter
+2022-11-01 09:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-01 10:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-01 11:00:00,0.0011782768593565894,Old Main Electricity Meter
+2022-11-01 12:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-01 13:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-01 14:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-01 15:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-01 16:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-01 17:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-01 18:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-01 19:00:00,0.0008212232656121684,Old Main Electricity Meter
+2022-11-01 20:00:00,0.0007855179062377263,Old Main Electricity Meter
+2022-11-01 21:00:00,0.0008926339843610526,Old Main Electricity Meter
+2022-11-01 22:00:00,0.0007141071874888421,Old Main Electricity Meter
+2022-11-01 23:00:00,0.0008569286249866105,Old Main Electricity Meter
+2022-11-02 00:00:00,0.00032134823436997894,Old Main Electricity Meter
+2022-11-02 01:00:00,0.0003927589531188631,Old Main Electricity Meter
+2022-11-02 02:00:00,0.00035705359374442106,Old Main Electricity Meter
+2022-11-02 03:00:00,0.0003927589531188631,Old Main Electricity Meter
+2022-11-02 04:00:00,0.00035705359374442106,Old Main Electricity Meter
+2022-11-02 05:00:00,0.00035705359374442106,Old Main Electricity Meter
+2022-11-02 06:00:00,0.00042846431249330525,Old Main Electricity Meter
+2022-11-02 07:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-02 08:00:00,0.0008212232656121684,Old Main Electricity Meter
+2022-11-02 09:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-02 10:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-02 11:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-02 12:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-02 13:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-02 14:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-02 15:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-02 16:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-02 17:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-02 18:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-02 19:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-02 20:00:00,0.0008926339843610526,Old Main Electricity Meter
+2022-11-02 21:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-02 22:00:00,0.0009283393437354947,Old Main Electricity Meter
+2022-11-02 23:00:00,0.0007855179062377263,Old Main Electricity Meter
+2022-11-03 00:00:00,0.00035705359374442106,Old Main Electricity Meter
+2022-11-03 01:00:00,0.00035705359374442106,Old Main Electricity Meter
+2022-11-03 02:00:00,0.00024993751562109475,Old Main Electricity Meter
+2022-11-03 03:00:00,0.00035705359374442106,Old Main Electricity Meter
+2022-11-03 04:00:00,0.00024993751562109475,Old Main Electricity Meter
+2022-11-03 05:00:00,0.00032134823436997894,Old Main Electricity Meter
+2022-11-03 06:00:00,0.00032134823436997894,Old Main Electricity Meter
+2022-11-03 07:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-03 08:00:00,0.0007855179062377263,Old Main Electricity Meter
+2022-11-03 09:00:00,0.0007498125468632841,Old Main Electricity Meter
+2022-11-03 10:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-03 11:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-03 12:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-03 13:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-03 14:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-03 15:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-03 16:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-03 17:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-03 18:00:00,0.0008569286249866105,Old Main Electricity Meter
+2022-11-03 19:00:00,0.0008926339843610526,Old Main Electricity Meter
+2022-11-03 20:00:00,0.0007855179062377263,Old Main Electricity Meter
+2022-11-03 21:00:00,0.0008569286249866105,Old Main Electricity Meter
+2022-11-03 22:00:00,0.0007855179062377263,Old Main Electricity Meter
+2022-11-03 23:00:00,0.0007141071874888421,Old Main Electricity Meter
+2022-11-04 00:00:00,0.0003927589531188631,Old Main Electricity Meter
+2022-11-04 01:00:00,0.00035705359374442106,Old Main Electricity Meter
+2022-11-04 02:00:00,0.0004998750312421895,Old Main Electricity Meter
+2022-11-04 03:00:00,0.00046416967186774737,Old Main Electricity Meter
+2022-11-04 04:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-04 05:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-04 06:00:00,0.0004998750312421895,Old Main Electricity Meter
+2022-11-04 07:00:00,0.0006426964687399579,Old Main Electricity Meter
+2022-11-04 08:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-04 09:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-04 10:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-04 11:00:00,0.0012139822187310315,Old Main Electricity Meter
+2022-11-04 12:00:00,0.0013925090156032421,Old Main Electricity Meter
+2022-11-04 13:00:00,0.0013568036562288,Old Main Electricity Meter
+2022-11-04 14:00:00,0.0013210982968543579,Old Main Electricity Meter
+2022-11-04 15:00:00,0.0013210982968543579,Old Main Electricity Meter
+2022-11-04 16:00:00,0.0012853929374799157,Old Main Electricity Meter
+2022-11-04 17:00:00,0.0012139822187310315,Old Main Electricity Meter
+2022-11-04 18:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-04 19:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-04 20:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-04 21:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-04 22:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-04 23:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-05 00:00:00,0.0006784018281144,Old Main Electricity Meter
+2022-11-05 01:00:00,0.0006784018281144,Old Main Electricity Meter
+2022-11-05 02:00:00,0.0006426964687399579,Old Main Electricity Meter
+2022-11-05 03:00:00,0.0006784018281144,Old Main Electricity Meter
+2022-11-05 04:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-05 05:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-05 06:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-05 07:00:00,0.0006426964687399579,Old Main Electricity Meter
+2022-11-05 08:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-05 09:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-05 10:00:00,0.0008569286249866105,Old Main Electricity Meter
+2022-11-05 11:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-05 12:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-05 13:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-05 14:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-05 15:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-05 16:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-05 17:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-05 18:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-05 19:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-05 20:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-05 21:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-05 22:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-05 23:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-06 00:00:00,0.0007141071874888421,Old Main Electricity Meter
+2022-11-06 01:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-06 02:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-06 03:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-06 04:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-06 05:00:00,0.0006426964687399579,Old Main Electricity Meter
+2022-11-06 06:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-06 07:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-06 08:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-06 09:00:00,0.0008926339843610526,Old Main Electricity Meter
+2022-11-06 10:00:00,0.0009283393437354947,Old Main Electricity Meter
+2022-11-06 11:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-06 12:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-06 13:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-06 14:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-06 15:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-06 16:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-06 17:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-06 18:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-06 19:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-06 20:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-06 21:00:00,0.0011782768593565894,Old Main Electricity Meter
+2022-11-06 22:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-06 23:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-07 00:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-07 01:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-07 02:00:00,0.0007498125468632841,Old Main Electricity Meter
+2022-11-07 03:00:00,0.0007855179062377263,Old Main Electricity Meter
+2022-11-07 04:00:00,0.0007498125468632841,Old Main Electricity Meter
+2022-11-07 05:00:00,0.0007855179062377263,Old Main Electricity Meter
+2022-11-07 06:00:00,0.0008212232656121684,Old Main Electricity Meter
+2022-11-07 07:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-07 08:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-07 09:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-07 10:00:00,0.0013210982968543579,Old Main Electricity Meter
+2022-11-07 11:00:00,0.0013568036562288,Old Main Electricity Meter
+2022-11-07 12:00:00,0.0014282143749776842,Old Main Electricity Meter
+2022-11-07 13:00:00,0.0012853929374799157,Old Main Electricity Meter
+2022-11-07 14:00:00,0.0015710358124754525,Old Main Electricity Meter
+2022-11-07 15:00:00,0.0013568036562288,Old Main Electricity Meter
+2022-11-07 16:00:00,0.0013925090156032421,Old Main Electricity Meter
+2022-11-07 17:00:00,0.0012853929374799157,Old Main Electricity Meter
+2022-11-07 18:00:00,0.0012139822187310315,Old Main Electricity Meter
+2022-11-07 19:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-07 20:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-07 21:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-07 22:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-07 23:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-08 00:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-08 01:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-08 02:00:00,0.0006426964687399579,Old Main Electricity Meter
+2022-11-08 03:00:00,0.0006784018281144,Old Main Electricity Meter
+2022-11-08 04:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-08 05:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-08 06:00:00,0.0006426964687399579,Old Main Electricity Meter
+2022-11-08 07:00:00,0.0008212232656121684,Old Main Electricity Meter
+2022-11-08 08:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-08 09:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-08 10:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-08 11:00:00,0.0011782768593565894,Old Main Electricity Meter
+2022-11-08 12:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-08 13:00:00,0.0012853929374799157,Old Main Electricity Meter
+2022-11-08 14:00:00,0.0012496875781054736,Old Main Electricity Meter
+2022-11-08 15:00:00,0.0012496875781054736,Old Main Electricity Meter
+2022-11-08 16:00:00,0.0012853929374799157,Old Main Electricity Meter
+2022-11-08 17:00:00,0.0012139822187310315,Old Main Electricity Meter
+2022-11-08 18:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-08 19:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-08 20:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-08 21:00:00,0.0011068661406077051,Old Main Electricity Meter
+2022-11-08 22:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-08 23:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-09 00:00:00,0.0006069911093655158,Old Main Electricity Meter
+2022-11-09 01:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-09 02:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-09 03:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-09 04:00:00,0.0005355803906166315,Old Main Electricity Meter
+2022-11-09 05:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-09 06:00:00,0.0005712857499910736,Old Main Electricity Meter
+2022-11-09 07:00:00,0.0006784018281144,Old Main Electricity Meter
+2022-11-09 08:00:00,0.0008926339843610526,Old Main Electricity Meter
+2022-11-09 09:00:00,0.001071160781233263,Old Main Electricity Meter
+2022-11-09 10:00:00,0.0012496875781054736,Old Main Electricity Meter
+2022-11-09 11:00:00,0.0012139822187310315,Old Main Electricity Meter
+2022-11-09 12:00:00,0.0012496875781054736,Old Main Electricity Meter
+2022-11-09 13:00:00,0.0011782768593565894,Old Main Electricity Meter
+2022-11-09 14:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-09 15:00:00,0.0012139822187310315,Old Main Electricity Meter
+2022-11-09 16:00:00,0.000999750062484379,Old Main Electricity Meter
+2022-11-09 17:00:00,0.0011425714999821473,Old Main Electricity Meter
+2022-11-09 18:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-09 19:00:00,0.0010354554218588211,Old Main Electricity Meter
+2022-11-09 20:00:00,0.0009640447031099368,Old Main Electricity Meter
+2022-11-09 21:00:00,0.0008569286249866105,Old Main Electricity Meter
+2022-11-09 22:00:00,0.0008212232656121684,Old Main Electricity Meter
+2022-11-09 23:00:00,0.0007498125468632841,Old Main Electricity Meter
+2022-11-01 01:00:00,0.0008371119637251483,Olin-Rice Electricity Meter
+2022-11-01 02:00:00,0.0008487385187768864,Olin-Rice Electricity Meter
+2022-11-01 03:00:00,0.0008487385187768864,Olin-Rice Electricity Meter
+2022-11-01 04:00:00,0.0008487385187768864,Olin-Rice Electricity Meter
+2022-11-01 05:00:00,0.0008603650738286246,Olin-Rice Electricity Meter
+2022-11-01 06:00:00,0.0008545517963027554,Olin-Rice Electricity Meter
+2022-11-01 07:00:00,0.0008545517963027554,Olin-Rice Electricity Meter
+2022-11-01 08:00:00,0.0009010580165097081,Olin-Rice Electricity Meter
+2022-11-01 09:00:00,0.0010056970119753518,Olin-Rice Electricity Meter
+2022-11-01 10:00:00,0.0010638297872340426,Olin-Rice Electricity Meter
+2022-11-01 11:00:00,0.0011219625624927334,Olin-Rice Electricity Meter
+2022-11-01 12:00:00,0.0010696430647599117,Olin-Rice Electricity Meter
+2022-11-01 13:00:00,0.0010638297872340426,Olin-Rice Electricity Meter
+2022-11-01 14:00:00,0.001232414835484246,Olin-Rice Electricity Meter
+2022-11-01 15:00:00,0.0013196139983722823,Olin-Rice Electricity Meter
+2022-11-01 16:00:00,0.0013196139983722823,Olin-Rice Electricity Meter
+2022-11-01 17:00:00,0.0012498546680618533,Olin-Rice Electricity Meter
+2022-11-01 18:00:00,0.001220788280432508,Olin-Rice Electricity Meter
+2022-11-01 19:00:00,0.0013196139983722823,Olin-Rice Electricity Meter
+2022-11-01 20:00:00,0.0012731077781653296,Olin-Rice Electricity Meter
+2022-11-01 21:00:00,0.0012498546680618533,Olin-Rice Electricity Meter
+2022-11-01 22:00:00,0.0011103360074409953,Olin-Rice Electricity Meter
+2022-11-01 23:00:00,0.0009475642367166608,Olin-Rice Electricity Meter
+2022-11-02 00:00:00,0.0008778049064062318,Olin-Rice Electricity Meter
+2022-11-02 01:00:00,0.0008545517963027554,Olin-Rice Electricity Meter
+2022-11-02 02:00:00,0.0008429252412510173,Olin-Rice Electricity Meter
+2022-11-02 03:00:00,0.00082548540867341,Olin-Rice Electricity Meter
+2022-11-02 04:00:00,0.00082548540867341,Olin-Rice Electricity Meter
+2022-11-02 05:00:00,0.00082548540867341,Olin-Rice Electricity Meter
+2022-11-02 06:00:00,0.00082548540867341,Olin-Rice Electricity Meter
+2022-11-02 07:00:00,0.00082548540867341,Olin-Rice Electricity Meter
+2022-11-02 08:00:00,0.0009010580165097081,Olin-Rice Electricity Meter
+2022-11-02 09:00:00,0.0009882571793977445,Olin-Rice Electricity Meter
+2022-11-02 10:00:00,0.0010056970119753518,Olin-Rice Electricity Meter
+2022-11-02 11:00:00,0.0010580165097081734,Olin-Rice Electricity Meter
+2022-11-02 12:00:00,0.0011975351703290315,Olin-Rice Electricity Meter
+2022-11-02 13:00:00,0.0012614812231135915,Olin-Rice Electricity Meter
+2022-11-02 14:00:00,0.0013312405534240204,Olin-Rice Electricity Meter
+2022-11-02 15:00:00,0.0013544936635274969,Olin-Rice Electricity Meter
+2022-11-02 16:00:00,0.0013428671084757587,Olin-Rice Electricity Meter
+2022-11-02 17:00:00,0.0013079874433205442,Olin-Rice Electricity Meter
+2022-11-02 18:00:00,0.0013079874433205442,Olin-Rice Electricity Meter
+2022-11-02 19:00:00,0.0014649459365190093,Olin-Rice Electricity Meter
+2022-11-02 20:00:00,0.0014998256016742239,Olin-Rice Electricity Meter
+2022-11-02 21:00:00,0.0014823857690966166,Olin-Rice Electricity Meter
+2022-11-02 22:00:00,0.0012266015579583769,Olin-Rice Electricity Meter
+2022-11-02 23:00:00,0.0010405766771305661,Olin-Rice Electricity Meter
+2022-11-03 00:00:00,0.0009882571793977445,Olin-Rice Electricity Meter
+2022-11-03 01:00:00,0.0009533775142425299,Olin-Rice Electricity Meter
+2022-11-03 02:00:00,0.0009243111266131845,Olin-Rice Electricity Meter
+2022-11-03 03:00:00,0.0009010580165097081,Olin-Rice Electricity Meter
+2022-11-03 04:00:00,0.0008719916288803627,Olin-Rice Electricity Meter
+2022-11-03 05:00:00,0.0008778049064062318,Olin-Rice Electricity Meter
+2022-11-03 06:00:00,0.000883618183932101,Olin-Rice Electricity Meter
+2022-11-03 07:00:00,0.0008661783513544937,Olin-Rice Electricity Meter
+2022-11-03 08:00:00,0.0009475642367166608,Olin-Rice Electricity Meter
+2022-11-03 09:00:00,0.001028950122078828,Olin-Rice Electricity Meter
+2022-11-03 10:00:00,0.001104522729915126,Olin-Rice Electricity Meter
+2022-11-03 11:00:00,0.0011452156725962098,Olin-Rice Electricity Meter
+2022-11-03 12:00:00,0.001092896174863388,Olin-Rice Electricity Meter
+2022-11-03 13:00:00,0.0010812696198116499,Olin-Rice Electricity Meter
+2022-11-03 14:00:00,0.0011742820602255552,Olin-Rice Electricity Meter
+2022-11-03 15:00:00,0.0012266015579583769,Olin-Rice Electricity Meter
+2022-11-03 16:00:00,0.0012266015579583769,Olin-Rice Electricity Meter
+2022-11-03 17:00:00,0.0011917218928031623,Olin-Rice Electricity Meter
+2022-11-03 18:00:00,0.0011219625624927334,Olin-Rice Electricity Meter
+2022-11-03 19:00:00,0.0012149750029066388,Olin-Rice Electricity Meter
+2022-11-03 20:00:00,0.0012033484478549007,Olin-Rice Electricity Meter
+2022-11-03 21:00:00,0.0013835600511568423,Olin-Rice Electricity Meter
+2022-11-03 22:00:00,0.0013719334961051041,Olin-Rice Electricity Meter
+2022-11-03 23:00:00,0.0009766306243460064,Olin-Rice Electricity Meter
+2022-11-04 00:00:00,0.0008661783513544937,Olin-Rice Electricity Meter
+2022-11-04 01:00:00,0.0008429252412510173,Olin-Rice Electricity Meter
+2022-11-04 02:00:00,0.0008312986861992791,Olin-Rice Electricity Meter
+2022-11-04 03:00:00,0.000819672131147541,Olin-Rice Electricity Meter
+2022-11-04 04:00:00,0.000819672131147541,Olin-Rice Electricity Meter
+2022-11-04 05:00:00,0.0008312986861992791,Olin-Rice Electricity Meter
+2022-11-04 06:00:00,0.0008371119637251483,Olin-Rice Electricity Meter
+2022-11-04 07:00:00,0.000819672131147541,Olin-Rice Electricity Meter
+2022-11-04 08:00:00,0.0009068712940355773,Olin-Rice Electricity Meter
+2022-11-04 09:00:00,0.0009650040692942681,Olin-Rice Electricity Meter
+2022-11-04 10:00:00,0.0010056970119753518,Olin-Rice Electricity Meter
+2022-11-04 11:00:00,0.0010580165097081734,Olin-Rice Electricity Meter
+2022-11-04 12:00:00,0.0010463899546564353,Olin-Rice Electricity Meter
+2022-11-04 13:00:00,0.0009998837344494826,Olin-Rice Electricity Meter
+2022-11-04 14:00:00,0.0010347633996046972,Olin-Rice Electricity Meter
+2022-11-04 15:00:00,0.0010522032321823045,Olin-Rice Electricity Meter
+2022-11-04 16:00:00,0.0010347633996046972,Olin-Rice Electricity Meter
+2022-11-04 17:00:00,0.0009998837344494826,Olin-Rice Electricity Meter
+2022-11-04 18:00:00,0.0009533775142425299,Olin-Rice Electricity Meter
+2022-11-04 19:00:00,0.0009650040692942681,Olin-Rice Electricity Meter
+2022-11-04 20:00:00,0.0009650040692942681,Olin-Rice Electricity Meter
+2022-11-04 21:00:00,0.0009708173468201372,Olin-Rice Electricity Meter
+2022-11-04 22:00:00,0.0009533775142425299,Olin-Rice Electricity Meter
+2022-11-04 23:00:00,0.0009533775142425299,Olin-Rice Electricity Meter
+2022-11-05 00:00:00,0.0009417509591907918,Olin-Rice Electricity Meter
+2022-11-05 01:00:00,0.0009417509591907918,Olin-Rice Electricity Meter
+2022-11-05 02:00:00,0.0009417509591907918,Olin-Rice Electricity Meter
+2022-11-05 03:00:00,0.0009301244041390535,Olin-Rice Electricity Meter
+2022-11-05 04:00:00,0.0009126845715614464,Olin-Rice Electricity Meter
+2022-11-05 05:00:00,0.000883618183932101,Olin-Rice Electricity Meter
+2022-11-05 06:00:00,0.000883618183932101,Olin-Rice Electricity Meter
+2022-11-05 07:00:00,0.0008952447389838391,Olin-Rice Electricity Meter
+2022-11-05 08:00:00,0.0009010580165097081,Olin-Rice Electricity Meter
+2022-11-05 09:00:00,0.0009068712940355773,Olin-Rice Electricity Meter
+2022-11-05 10:00:00,0.0009126845715614464,Olin-Rice Electricity Meter
+2022-11-05 11:00:00,0.0009243111266131845,Olin-Rice Electricity Meter
+2022-11-05 12:00:00,0.0009301244041390535,Olin-Rice Electricity Meter
+2022-11-05 13:00:00,0.0009359376816649227,Olin-Rice Electricity Meter
+2022-11-05 14:00:00,0.0009359376816649227,Olin-Rice Electricity Meter
+2022-11-05 15:00:00,0.0009359376816649227,Olin-Rice Electricity Meter
+2022-11-05 16:00:00,0.0009010580165097081,Olin-Rice Electricity Meter
+2022-11-05 17:00:00,0.0008778049064062318,Olin-Rice Electricity Meter
+2022-11-05 18:00:00,0.0008778049064062318,Olin-Rice Electricity Meter
+2022-11-05 19:00:00,0.00088943146145797,Olin-Rice Electricity Meter
+2022-11-05 20:00:00,0.00088943146145797,Olin-Rice Electricity Meter
+2022-11-05 21:00:00,0.0008778049064062318,Olin-Rice Electricity Meter
+2022-11-05 22:00:00,0.0008487385187768864,Olin-Rice Electricity Meter
+2022-11-05 23:00:00,0.00082548540867341,Olin-Rice Electricity Meter
+2022-11-06 00:00:00,0.000819672131147541,Olin-Rice Electricity Meter
+2022-11-06 01:00:00,0.0008080455760958029,Olin-Rice Electricity Meter
+2022-11-06 02:00:00,0.0008138588536216719,Olin-Rice Electricity Meter
+2022-11-06 03:00:00,0.0008022322985699337,Olin-Rice Electricity Meter
+2022-11-06 04:00:00,0.0008080455760958029,Olin-Rice Electricity Meter
+2022-11-06 05:00:00,0.0008022322985699337,Olin-Rice Electricity Meter
+2022-11-06 06:00:00,0.0008022322985699337,Olin-Rice Electricity Meter
+2022-11-06 07:00:00,0.0008080455760958029,Olin-Rice Electricity Meter
+2022-11-06 08:00:00,0.00082548540867341,Olin-Rice Electricity Meter
+2022-11-06 09:00:00,0.0008371119637251483,Olin-Rice Electricity Meter
+2022-11-06 10:00:00,0.0008312986861992791,Olin-Rice Electricity Meter
+2022-11-06 11:00:00,0.0008487385187768864,Olin-Rice Electricity Meter
+2022-11-06 12:00:00,0.0008545517963027554,Olin-Rice Electricity Meter
+2022-11-06 13:00:00,0.0008545517963027554,Olin-Rice Electricity Meter
+2022-11-06 14:00:00,0.0008603650738286246,Olin-Rice Electricity Meter
+2022-11-06 15:00:00,0.0008719916288803627,Olin-Rice Electricity Meter
+2022-11-06 16:00:00,0.0008661783513544937,Olin-Rice Electricity Meter
+2022-11-06 17:00:00,0.0008778049064062318,Olin-Rice Electricity Meter
+2022-11-06 18:00:00,0.00088943146145797,Olin-Rice Electricity Meter
+2022-11-06 19:00:00,0.0009708173468201372,Olin-Rice Electricity Meter
+2022-11-06 20:00:00,0.0010173235670270899,Olin-Rice Electricity Meter
+2022-11-06 21:00:00,0.0010115102895012207,Olin-Rice Electricity Meter
+2022-11-06 22:00:00,0.0008603650738286246,Olin-Rice Electricity Meter
+2022-11-06 23:00:00,0.000819672131147541,Olin-Rice Electricity Meter
+2022-11-07 00:00:00,0.0008080455760958029,Olin-Rice Electricity Meter
+2022-11-07 01:00:00,0.0008138588536216719,Olin-Rice Electricity Meter
+2022-11-07 02:00:00,0.0008022322985699337,Olin-Rice Electricity Meter
+2022-11-07 03:00:00,0.0008022322985699337,Olin-Rice Electricity Meter
+2022-11-07 04:00:00,0.0008080455760958029,Olin-Rice Electricity Meter
+2022-11-07 05:00:00,0.0008080455760958029,Olin-Rice Electricity Meter
+2022-11-07 06:00:00,0.0008429252412510173,Olin-Rice Electricity Meter
+2022-11-07 07:00:00,0.0008312986861992791,Olin-Rice Electricity Meter
+2022-11-07 08:00:00,0.0008661783513544937,Olin-Rice Electricity Meter
+2022-11-07 09:00:00,0.0009359376816649227,Olin-Rice Electricity Meter
+2022-11-07 10:00:00,0.0010056970119753518,Olin-Rice Electricity Meter
+2022-11-07 11:00:00,0.0010522032321823045,Olin-Rice Electricity Meter
+2022-11-07 12:00:00,0.0010754563422857807,Olin-Rice Electricity Meter
+2022-11-07 13:00:00,0.0010696430647599117,Olin-Rice Electricity Meter
+2022-11-07 14:00:00,0.0010812696198116499,Olin-Rice Electricity Meter
+2022-11-07 15:00:00,0.0010870828973375188,Olin-Rice Electricity Meter
+2022-11-07 16:00:00,0.0010696430647599117,Olin-Rice Electricity Meter
+2022-11-07 17:00:00,0.001023136844552959,Olin-Rice Electricity Meter
+2022-11-07 18:00:00,0.0009766306243460064,Olin-Rice Electricity Meter
+2022-11-07 19:00:00,0.0009708173468201372,Olin-Rice Electricity Meter
+2022-11-07 20:00:00,0.0009940704569236136,Olin-Rice Electricity Meter
+2022-11-07 21:00:00,0.0009766306243460064,Olin-Rice Electricity Meter
+2022-11-07 22:00:00,0.0009126845715614464,Olin-Rice Electricity Meter
+2022-11-07 23:00:00,0.0008719916288803627,Olin-Rice Electricity Meter
+2022-11-08 00:00:00,0.0008487385187768864,Olin-Rice Electricity Meter
+2022-11-08 01:00:00,0.0008371119637251483,Olin-Rice Electricity Meter
+2022-11-08 02:00:00,0.0008312986861992791,Olin-Rice Electricity Meter
+2022-11-08 03:00:00,0.0008312986861992791,Olin-Rice Electricity Meter
+2022-11-08 04:00:00,0.0008371119637251483,Olin-Rice Electricity Meter
+2022-11-08 05:00:00,0.0008429252412510173,Olin-Rice Electricity Meter
+2022-11-08 06:00:00,0.0008603650738286246,Olin-Rice Electricity Meter
+2022-11-08 07:00:00,0.0008545517963027554,Olin-Rice Electricity Meter
+2022-11-08 08:00:00,0.0008778049064062318,Olin-Rice Electricity Meter
+2022-11-08 09:00:00,0.0010754563422857807,Olin-Rice Electricity Meter
+2022-11-08 10:00:00,0.0010987094523892571,Olin-Rice Electricity Meter
+2022-11-08 11:00:00,0.0010870828973375188,Olin-Rice Electricity Meter
+2022-11-08 12:00:00,0.0010463899546564353,Olin-Rice Electricity Meter
+2022-11-08 13:00:00,0.0010115102895012207,Olin-Rice Electricity Meter
+2022-11-08 14:00:00,0.001168468782699686,Olin-Rice Electricity Meter
+2022-11-08 15:00:00,0.0012091617253807696,Olin-Rice Electricity Meter
+2022-11-08 16:00:00,0.0011742820602255552,Olin-Rice Electricity Meter
+2022-11-08 17:00:00,0.001104522729915126,Olin-Rice Electricity Meter
+2022-11-08 18:00:00,0.001023136844552959,Olin-Rice Electricity Meter
+2022-11-08 19:00:00,0.001028950122078828,Olin-Rice Electricity Meter
+2022-11-08 20:00:00,0.0010405766771305661,Olin-Rice Electricity Meter
+2022-11-08 21:00:00,0.0010405766771305661,Olin-Rice Electricity Meter
+2022-11-08 22:00:00,0.0010463899546564353,Olin-Rice Electricity Meter
+2022-11-08 23:00:00,0.0009243111266131845,Olin-Rice Electricity Meter
+2022-11-09 00:00:00,0.0008952447389838391,Olin-Rice Electricity Meter
+2022-11-09 01:00:00,0.0008778049064062318,Olin-Rice Electricity Meter
+2022-11-09 02:00:00,0.0008603650738286246,Olin-Rice Electricity Meter
+2022-11-09 03:00:00,0.0008545517963027554,Olin-Rice Electricity Meter
+2022-11-09 04:00:00,0.0008487385187768864,Olin-Rice Electricity Meter
+2022-11-09 05:00:00,0.0008487385187768864,Olin-Rice Electricity Meter
+2022-11-09 06:00:00,0.0008661783513544937,Olin-Rice Electricity Meter
+2022-11-09 07:00:00,0.0008429252412510173,Olin-Rice Electricity Meter
+2022-11-09 08:00:00,0.0009243111266131845,Olin-Rice Electricity Meter
+2022-11-09 09:00:00,0.0009708173468201372,Olin-Rice Electricity Meter
+2022-11-09 10:00:00,0.0010463899546564353,Olin-Rice Electricity Meter
+2022-11-09 11:00:00,0.0011219625624927334,Olin-Rice Electricity Meter
+2022-11-09 12:00:00,0.0011800953377514242,Olin-Rice Electricity Meter
+2022-11-09 13:00:00,0.001168468782699686,Olin-Rice Electricity Meter
+2022-11-09 14:00:00,0.0012440413905359842,Olin-Rice Electricity Meter
+2022-11-09 15:00:00,0.0012672945006394606,Olin-Rice Electricity Meter
+2022-11-09 16:00:00,0.001302174165794675,Olin-Rice Electricity Meter
+2022-11-09 17:00:00,0.0012440413905359842,Olin-Rice Electricity Meter
+2022-11-09 18:00:00,0.0011859086152772934,Olin-Rice Electricity Meter
+2022-11-09 19:00:00,0.0011394023950703407,Olin-Rice Electricity Meter
+2022-11-09 20:00:00,0.0011161492849668642,Olin-Rice Electricity Meter
+2022-11-09 21:00:00,0.0010987094523892571,Olin-Rice Electricity Meter
+2022-11-09 22:00:00,0.0009650040692942681,Olin-Rice Electricity Meter
+2022-11-09 23:00:00,0.0009301244041390535,Olin-Rice Electricity Meter
+2022-11-01 01:00:00,0.000571323258385551,Studio Art Building Main Electricity Meter
+2022-11-01 02:00:00,0.0004607445632141541,Studio Art Building Main Electricity Meter
+2022-11-01 03:00:00,0.00038702543309988944,Studio Art Building Main Electricity Meter
+2022-11-01 04:00:00,0.00036859565057132326,Studio Art Building Main Electricity Meter
+2022-11-01 05:00:00,0.00036859565057132326,Studio Art Building Main Electricity Meter
+2022-11-01 06:00:00,0.00042388499815702174,Studio Art Building Main Electricity Meter
+2022-11-01 07:00:00,0.00042388499815702174,Studio Art Building Main Electricity Meter
+2022-11-01 08:00:00,0.0007556210836712127,Studio Art Building Main Electricity Meter
+2022-11-01 09:00:00,0.000903059343899742,Studio Art Building Main Electricity Meter
+2022-11-01 10:00:00,0.0009767784740140066,Studio Art Building Main Electricity Meter
+2022-11-01 11:00:00,0.0010320678215997052,Studio Art Building Main Electricity Meter
+2022-11-01 12:00:00,0.0009214891264283082,Studio Art Building Main Electricity Meter
+2022-11-01 13:00:00,0.0008477699963140435,Studio Art Building Main Electricity Meter
+2022-11-01 14:00:00,0.0009767784740140066,Studio Art Building Main Electricity Meter
+2022-11-01 15:00:00,0.0009399189089568743,Studio Art Building Main Electricity Meter
+2022-11-01 16:00:00,0.0009767784740140066,Studio Art Building Main Electricity Meter
+2022-11-01 17:00:00,0.0010689273866568375,Studio Art Building Main Electricity Meter
+2022-11-01 18:00:00,0.0010504976041282713,Studio Art Building Main Electricity Meter
+2022-11-01 19:00:00,0.001013638039071139,Studio Art Building Main Electricity Meter
+2022-11-01 20:00:00,0.0008846295613711758,Studio Art Building Main Electricity Meter
+2022-11-01 21:00:00,0.0009952082565425728,Studio Art Building Main Electricity Meter
+2022-11-01 22:00:00,0.0009214891264283082,Studio Art Building Main Electricity Meter
+2022-11-01 23:00:00,0.0007003317360855142,Studio Art Building Main Electricity Meter
+2022-11-02 00:00:00,0.0006081828234426834,Studio Art Building Main Electricity Meter
+2022-11-02 01:00:00,0.0005897530409141172,Studio Art Building Main Electricity Meter
+2022-11-02 02:00:00,0.0002948765204570586,Studio Art Building Main Electricity Meter
+2022-11-02 03:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-02 04:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-02 05:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-02 06:00:00,0.00020272760781422778,Studio Art Building Main Electricity Meter
+2022-11-02 07:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-02 08:00:00,0.0005344636933284188,Studio Art Building Main Electricity Meter
+2022-11-02 09:00:00,0.0007187615186140803,Studio Art Building Main Electricity Meter
+2022-11-02 10:00:00,0.0007556210836712127,Studio Art Building Main Electricity Meter
+2022-11-02 11:00:00,0.0010873571691854037,Studio Art Building Main Electricity Meter
+2022-11-02 12:00:00,0.0011979358643568006,Studio Art Building Main Electricity Meter
+2022-11-02 13:00:00,0.0010873571691854037,Studio Art Building Main Electricity Meter
+2022-11-02 14:00:00,0.0011242167342425358,Studio Art Building Main Electricity Meter
+2022-11-02 15:00:00,0.0012716549944710653,Studio Art Building Main Electricity Meter
+2022-11-02 16:00:00,0.001363803907113896,Studio Art Building Main Electricity Meter
+2022-11-02 17:00:00,0.0013822336896424621,Studio Art Building Main Electricity Meter
+2022-11-02 18:00:00,0.0011242167342425358,Studio Art Building Main Electricity Meter
+2022-11-02 19:00:00,0.0010873571691854037,Studio Art Building Main Electricity Meter
+2022-11-02 20:00:00,0.0012163656468853667,Studio Art Building Main Electricity Meter
+2022-11-02 21:00:00,0.00134537412458533,Studio Art Building Main Electricity Meter
+2022-11-02 22:00:00,0.001253225211942499,Studio Art Building Main Electricity Meter
+2022-11-02 23:00:00,0.0011610762992996682,Studio Art Building Main Electricity Meter
+2022-11-03 00:00:00,0.0010873571691854037,Studio Art Building Main Electricity Meter
+2022-11-03 01:00:00,0.000903059343899742,Studio Art Building Main Electricity Meter
+2022-11-03 02:00:00,0.00036859565057132326,Studio Art Building Main Electricity Meter
+2022-11-03 03:00:00,0.00027644673792849247,Studio Art Building Main Electricity Meter
+2022-11-03 04:00:00,0.0002580169553999263,Studio Art Building Main Electricity Meter
+2022-11-03 05:00:00,0.00033173608551419095,Studio Art Building Main Electricity Meter
+2022-11-03 06:00:00,0.0002395871728713601,Studio Art Building Main Electricity Meter
+2022-11-03 07:00:00,0.00020272760781422778,Studio Art Building Main Electricity Meter
+2022-11-03 08:00:00,0.0006081828234426834,Studio Art Building Main Electricity Meter
+2022-11-03 09:00:00,0.000792480648728345,Studio Art Building Main Electricity Meter
+2022-11-03 10:00:00,0.000903059343899742,Studio Art Building Main Electricity Meter
+2022-11-03 11:00:00,0.0009767784740140066,Studio Art Building Main Electricity Meter
+2022-11-03 12:00:00,0.0009399189089568743,Studio Art Building Main Electricity Meter
+2022-11-03 13:00:00,0.0009214891264283082,Studio Art Building Main Electricity Meter
+2022-11-03 14:00:00,0.0009767784740140066,Studio Art Building Main Electricity Meter
+2022-11-03 15:00:00,0.0008846295613711758,Studio Art Building Main Electricity Meter
+2022-11-03 16:00:00,0.001013638039071139,Studio Art Building Main Electricity Meter
+2022-11-03 17:00:00,0.0009952082565425728,Studio Art Building Main Electricity Meter
+2022-11-03 18:00:00,0.0009767784740140066,Studio Art Building Main Electricity Meter
+2022-11-03 19:00:00,0.0009399189089568743,Studio Art Building Main Electricity Meter
+2022-11-03 20:00:00,0.0008661997788426097,Studio Art Building Main Electricity Meter
+2022-11-03 21:00:00,0.0008293402137854773,Studio Art Building Main Electricity Meter
+2022-11-03 22:00:00,0.0007187615186140803,Studio Art Building Main Electricity Meter
+2022-11-03 23:00:00,0.0006450423884998157,Studio Art Building Main Electricity Meter
+2022-11-04 00:00:00,0.0005897530409141172,Studio Art Building Main Electricity Meter
+2022-11-04 01:00:00,0.0005344636933284188,Studio Art Building Main Electricity Meter
+2022-11-04 02:00:00,0.0002395871728713601,Studio Art Building Main Electricity Meter
+2022-11-04 03:00:00,0.00016586804275709548,Studio Art Building Main Electricity Meter
+2022-11-04 04:00:00,0.00016586804275709548,Studio Art Building Main Electricity Meter
+2022-11-04 05:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-04 06:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-04 07:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-04 08:00:00,0.0004976041282712864,Studio Art Building Main Electricity Meter
+2022-11-04 09:00:00,0.0005897530409141172,Studio Art Building Main Electricity Meter
+2022-11-04 10:00:00,0.0006634721710283819,Studio Art Building Main Electricity Meter
+2022-11-04 11:00:00,0.0008477699963140435,Studio Art Building Main Electricity Meter
+2022-11-04 12:00:00,0.0009583486914854404,Studio Art Building Main Electricity Meter
+2022-11-04 13:00:00,0.0008846295613711758,Studio Art Building Main Electricity Meter
+2022-11-04 14:00:00,0.0008293402137854773,Studio Art Building Main Electricity Meter
+2022-11-04 15:00:00,0.000792480648728345,Studio Art Building Main Electricity Meter
+2022-11-04 16:00:00,0.0007740508661997789,Studio Art Building Main Electricity Meter
+2022-11-04 17:00:00,0.000792480648728345,Studio Art Building Main Electricity Meter
+2022-11-04 18:00:00,0.0007371913011426465,Studio Art Building Main Electricity Meter
+2022-11-04 19:00:00,0.0006634721710283819,Studio Art Building Main Electricity Meter
+2022-11-04 20:00:00,0.0006266126059712495,Studio Art Building Main Electricity Meter
+2022-11-04 21:00:00,0.0004976041282712864,Studio Art Building Main Electricity Meter
+2022-11-04 22:00:00,0.0004976041282712864,Studio Art Building Main Electricity Meter
+2022-11-04 23:00:00,0.0004791743457427202,Studio Art Building Main Electricity Meter
+2022-11-05 00:00:00,0.0005160339107998526,Studio Art Building Main Electricity Meter
+2022-11-05 01:00:00,0.0005897530409141172,Studio Art Building Main Electricity Meter
+2022-11-05 02:00:00,0.0002948765204570586,Studio Art Building Main Electricity Meter
+2022-11-05 03:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-05 04:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-05 05:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-05 06:00:00,0.0002395871728713601,Studio Art Building Main Electricity Meter
+2022-11-05 07:00:00,0.0002395871728713601,Studio Art Building Main Electricity Meter
+2022-11-05 08:00:00,0.0004607445632141541,Studio Art Building Main Electricity Meter
+2022-11-05 09:00:00,0.0005528934758569849,Studio Art Building Main Electricity Meter
+2022-11-05 10:00:00,0.0005528934758569849,Studio Art Building Main Electricity Meter
+2022-11-05 11:00:00,0.0005160339107998526,Studio Art Building Main Electricity Meter
+2022-11-05 12:00:00,0.0005160339107998526,Studio Art Building Main Electricity Meter
+2022-11-05 13:00:00,0.0006081828234426834,Studio Art Building Main Electricity Meter
+2022-11-05 14:00:00,0.0006634721710283819,Studio Art Building Main Electricity Meter
+2022-11-05 15:00:00,0.000681901953556948,Studio Art Building Main Electricity Meter
+2022-11-05 16:00:00,0.0007556210836712127,Studio Art Building Main Electricity Meter
+2022-11-05 17:00:00,0.0008846295613711758,Studio Art Building Main Electricity Meter
+2022-11-05 18:00:00,0.0008293402137854773,Studio Art Building Main Electricity Meter
+2022-11-05 19:00:00,0.0007740508661997789,Studio Art Building Main Electricity Meter
+2022-11-05 20:00:00,0.0005897530409141172,Studio Art Building Main Electricity Meter
+2022-11-05 21:00:00,0.0006081828234426834,Studio Art Building Main Electricity Meter
+2022-11-05 22:00:00,0.0004976041282712864,Studio Art Building Main Electricity Meter
+2022-11-05 23:00:00,0.0004791743457427202,Studio Art Building Main Electricity Meter
+2022-11-06 00:00:00,0.0004791743457427202,Studio Art Building Main Electricity Meter
+2022-11-06 01:00:00,0.0004607445632141541,Studio Art Building Main Electricity Meter
+2022-11-06 02:00:00,0.0002395871728713601,Studio Art Building Main Electricity Meter
+2022-11-06 03:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-06 04:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-06 05:00:00,0.00016586804275709548,Studio Art Building Main Electricity Meter
+2022-11-06 06:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-06 07:00:00,0.00018429782528566163,Studio Art Building Main Electricity Meter
+2022-11-06 08:00:00,0.00040545521562845556,Studio Art Building Main Electricity Meter
+2022-11-06 09:00:00,0.0004607445632141541,Studio Art Building Main Electricity Meter
+2022-11-06 10:00:00,0.0004791743457427202,Studio Art Building Main Electricity Meter
+2022-11-06 11:00:00,0.0005160339107998526,Studio Art Building Main Electricity Meter
+2022-11-06 12:00:00,0.0006450423884998157,Studio Art Building Main Electricity Meter
+2022-11-06 13:00:00,0.0007003317360855142,Studio Art Building Main Electricity Meter
+2022-11-06 14:00:00,0.000681901953556948,Studio Art Building Main Electricity Meter
+2022-11-06 15:00:00,0.0008109104312569111,Studio Art Building Main Electricity Meter
+2022-11-06 16:00:00,0.000792480648728345,Studio Art Building Main Electricity Meter
+2022-11-06 17:00:00,0.0008109104312569111,Studio Art Building Main Electricity Meter
+2022-11-06 18:00:00,0.0008661997788426097,Studio Art Building Main Electricity Meter
+2022-11-06 19:00:00,0.000792480648728345,Studio Art Building Main Electricity Meter
+2022-11-06 20:00:00,0.000681901953556948,Studio Art Building Main Electricity Meter
+2022-11-06 21:00:00,0.0006266126059712495,Studio Art Building Main Electricity Meter
+2022-11-06 22:00:00,0.0006081828234426834,Studio Art Building Main Electricity Meter
+2022-11-06 23:00:00,0.0005528934758569849,Studio Art Building Main Electricity Meter
+2022-11-07 00:00:00,0.0005528934758569849,Studio Art Building Main Electricity Meter
+2022-11-07 01:00:00,0.000571323258385551,Studio Art Building Main Electricity Meter
+2022-11-07 02:00:00,0.0003133063029856248,Studio Art Building Main Electricity Meter
+2022-11-07 03:00:00,0.00020272760781422778,Studio Art Building Main Electricity Meter
+2022-11-07 04:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-07 05:00:00,0.0002395871728713601,Studio Art Building Main Electricity Meter
+2022-11-07 06:00:00,0.00016586804275709548,Studio Art Building Main Electricity Meter
+2022-11-07 07:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-07 08:00:00,0.0005160339107998526,Studio Art Building Main Electricity Meter
+2022-11-07 09:00:00,0.0006634721710283819,Studio Art Building Main Electricity Meter
+2022-11-07 10:00:00,0.000792480648728345,Studio Art Building Main Electricity Meter
+2022-11-07 11:00:00,0.0009583486914854404,Studio Art Building Main Electricity Meter
+2022-11-07 12:00:00,0.0008846295613711758,Studio Art Building Main Electricity Meter
+2022-11-07 13:00:00,0.0009952082565425728,Studio Art Building Main Electricity Meter
+2022-11-07 14:00:00,0.0009399189089568743,Studio Art Building Main Electricity Meter
+2022-11-07 15:00:00,0.0009583486914854404,Studio Art Building Main Electricity Meter
+2022-11-07 16:00:00,0.0008846295613711758,Studio Art Building Main Electricity Meter
+2022-11-07 17:00:00,0.0008477699963140435,Studio Art Building Main Electricity Meter
+2022-11-07 18:00:00,0.000792480648728345,Studio Art Building Main Electricity Meter
+2022-11-07 19:00:00,0.0008293402137854773,Studio Art Building Main Electricity Meter
+2022-11-07 20:00:00,0.0007740508661997789,Studio Art Building Main Electricity Meter
+2022-11-07 21:00:00,0.0007371913011426465,Studio Art Building Main Electricity Meter
+2022-11-07 22:00:00,0.0007740508661997789,Studio Art Building Main Electricity Meter
+2022-11-07 23:00:00,0.0007556210836712127,Studio Art Building Main Electricity Meter
+2022-11-08 00:00:00,0.0007003317360855142,Studio Art Building Main Electricity Meter
+2022-11-08 01:00:00,0.0005528934758569849,Studio Art Building Main Electricity Meter
+2022-11-08 02:00:00,0.0003501658680427571,Studio Art Building Main Electricity Meter
+2022-11-08 03:00:00,0.00040545521562845556,Studio Art Building Main Electricity Meter
+2022-11-08 04:00:00,0.0004791743457427202,Studio Art Building Main Electricity Meter
+2022-11-08 05:00:00,0.0005528934758569849,Studio Art Building Main Electricity Meter
+2022-11-08 06:00:00,0.0005344636933284188,Studio Art Building Main Electricity Meter
+2022-11-08 07:00:00,0.0005897530409141172,Studio Art Building Main Electricity Meter
+2022-11-08 08:00:00,0.0008661997788426097,Studio Art Building Main Electricity Meter
+2022-11-08 09:00:00,0.0010873571691854037,Studio Art Building Main Electricity Meter
+2022-11-08 10:00:00,0.0011242167342425358,Studio Art Building Main Electricity Meter
+2022-11-08 11:00:00,0.0011979358643568006,Studio Art Building Main Electricity Meter
+2022-11-08 12:00:00,0.0011242167342425358,Studio Art Building Main Electricity Meter
+2022-11-08 13:00:00,0.0007740508661997789,Studio Art Building Main Electricity Meter
+2022-11-08 14:00:00,0.0008477699963140435,Studio Art Building Main Electricity Meter
+2022-11-08 15:00:00,0.0008846295613711758,Studio Art Building Main Electricity Meter
+2022-11-08 16:00:00,0.001013638039071139,Studio Art Building Main Electricity Meter
+2022-11-08 17:00:00,0.0009952082565425728,Studio Art Building Main Electricity Meter
+2022-11-08 18:00:00,0.0008293402137854773,Studio Art Building Main Electricity Meter
+2022-11-08 19:00:00,0.0008477699963140435,Studio Art Building Main Electricity Meter
+2022-11-08 20:00:00,0.0008293402137854773,Studio Art Building Main Electricity Meter
+2022-11-08 21:00:00,0.0008661997788426097,Studio Art Building Main Electricity Meter
+2022-11-08 22:00:00,0.0008846295613711758,Studio Art Building Main Electricity Meter
+2022-11-08 23:00:00,0.0006450423884998157,Studio Art Building Main Electricity Meter
+2022-11-09 00:00:00,0.000571323258385551,Studio Art Building Main Electricity Meter
+2022-11-09 01:00:00,0.0006081828234426834,Studio Art Building Main Electricity Meter
+2022-11-09 02:00:00,0.0002948765204570586,Studio Art Building Main Electricity Meter
+2022-11-09 03:00:00,0.0002395871728713601,Studio Art Building Main Electricity Meter
+2022-11-09 04:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-09 05:00:00,0.00022115739034279396,Studio Art Building Main Electricity Meter
+2022-11-09 06:00:00,0.0002580169553999263,Studio Art Building Main Electricity Meter
+2022-11-09 07:00:00,0.0002395871728713601,Studio Art Building Main Electricity Meter
+2022-11-09 08:00:00,0.0004976041282712864,Studio Art Building Main Electricity Meter
+2022-11-09 09:00:00,0.0006450423884998157,Studio Art Building Main Electricity Meter
+2022-11-09 10:00:00,0.0007003317360855142,Studio Art Building Main Electricity Meter
+2022-11-09 11:00:00,0.000792480648728345,Studio Art Building Main Electricity Meter
+2022-11-09 12:00:00,0.001013638039071139,Studio Art Building Main Electricity Meter
+2022-11-09 13:00:00,0.0007187615186140803,Studio Art Building Main Electricity Meter
+2022-11-09 14:00:00,0.0007740508661997789,Studio Art Building Main Electricity Meter
+2022-11-09 15:00:00,0.0008109104312569111,Studio Art Building Main Electricity Meter
+2022-11-09 16:00:00,0.0009214891264283082,Studio Art Building Main Electricity Meter
+2022-11-09 17:00:00,0.0007740508661997789,Studio Art Building Main Electricity Meter
+2022-11-09 18:00:00,0.0007371913011426465,Studio Art Building Main Electricity Meter
+2022-11-09 19:00:00,0.0007187615186140803,Studio Art Building Main Electricity Meter
+2022-11-09 20:00:00,0.000681901953556948,Studio Art Building Main Electricity Meter
+2022-11-09 21:00:00,0.0008109104312569111,Studio Art Building Main Electricity Meter
+2022-11-09 22:00:00,0.0008109104312569111,Studio Art Building Main Electricity Meter
+2022-11-09 23:00:00,0.000681901953556948,Studio Art Building Main Electricity Meter
+2022-11-01 01:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-01 02:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-01 03:00:00,0.0001859835996280328,Theater Main Electricity Meter
+2022-11-01 04:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-01 05:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-01 06:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-01 07:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-01 08:00:00,0.0004057823991884352,Theater Main Electricity Meter
+2022-11-01 09:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-01 10:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-01 11:00:00,5.07227998985544e-05,Theater Main Electricity Meter
+2022-11-01 12:00:00,0.0,Theater Main Electricity Meter
+2022-11-01 13:00:00,0.0,Theater Main Electricity Meter
+2022-11-01 14:00:00,0.0,Theater Main Electricity Meter
+2022-11-01 15:00:00,3.38151999323696e-05,Theater Main Electricity Meter
+2022-11-01 16:00:00,0.0002874291994251416,Theater Main Electricity Meter
+2022-11-01 17:00:00,0.0006593963986812072,Theater Main Electricity Meter
+2022-11-01 18:00:00,0.00084537999830924,Theater Main Electricity Meter
+2022-11-01 19:00:00,0.0008622875982754249,Theater Main Electricity Meter
+2022-11-01 20:00:00,0.0008961027982077944,Theater Main Electricity Meter
+2022-11-01 21:00:00,0.0008961027982077944,Theater Main Electricity Meter
+2022-11-01 22:00:00,0.0008622875982754249,Theater Main Electricity Meter
+2022-11-01 23:00:00,0.0006424887987150224,Theater Main Electricity Meter
+2022-11-02 00:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-02 01:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-02 02:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-02 03:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-02 04:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-02 05:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-02 06:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-02 07:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-02 08:00:00,0.0003888747992222504,Theater Main Electricity Meter
+2022-11-02 09:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-02 10:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-02 11:00:00,5.07227998985544e-05,Theater Main Electricity Meter
+2022-11-02 12:00:00,0.0,Theater Main Electricity Meter
+2022-11-02 13:00:00,0.0,Theater Main Electricity Meter
+2022-11-02 14:00:00,0.0001521683996956632,Theater Main Electricity Meter
+2022-11-02 15:00:00,0.0006932115986135768,Theater Main Electricity Meter
+2022-11-02 16:00:00,0.0007946571984106856,Theater Main Electricity Meter
+2022-11-02 17:00:00,0.0010482711979034577,Theater Main Electricity Meter
+2022-11-02 18:00:00,0.001098993997802012,Theater Main Electricity Meter
+2022-11-02 19:00:00,0.0012173471975653056,Theater Main Electricity Meter
+2022-11-02 20:00:00,0.0011497167977005665,Theater Main Electricity Meter
+2022-11-02 21:00:00,0.0008622875982754249,Theater Main Electricity Meter
+2022-11-02 22:00:00,0.0007270267985459464,Theater Main Electricity Meter
+2022-11-02 23:00:00,0.0005579507988840984,Theater Main Electricity Meter
+2022-11-03 00:00:00,0.0004903203990193593,Theater Main Electricity Meter
+2022-11-03 01:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-03 02:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-03 03:00:00,0.0002874291994251416,Theater Main Electricity Meter
+2022-11-03 04:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-03 05:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-03 06:00:00,0.0002874291994251416,Theater Main Electricity Meter
+2022-11-03 07:00:00,0.0003043367993913264,Theater Main Electricity Meter
+2022-11-03 08:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-03 09:00:00,0.00042268999915462,Theater Main Electricity Meter
+2022-11-03 10:00:00,0.0006593963986812072,Theater Main Electricity Meter
+2022-11-03 11:00:00,0.0005410431989179136,Theater Main Electricity Meter
+2022-11-03 12:00:00,0.000507227998985544,Theater Main Electricity Meter
+2022-11-03 13:00:00,0.0003888747992222504,Theater Main Electricity Meter
+2022-11-03 14:00:00,0.000591765998816468,Theater Main Electricity Meter
+2022-11-03 15:00:00,0.0005579507988840984,Theater Main Electricity Meter
+2022-11-03 16:00:00,0.0005579507988840984,Theater Main Electricity Meter
+2022-11-03 17:00:00,0.0006593963986812072,Theater Main Electricity Meter
+2022-11-03 18:00:00,0.0006424887987150224,Theater Main Electricity Meter
+2022-11-03 19:00:00,0.0005748583988502832,Theater Main Electricity Meter
+2022-11-03 20:00:00,0.0005579507988840984,Theater Main Electricity Meter
+2022-11-03 21:00:00,0.0005748583988502832,Theater Main Electricity Meter
+2022-11-03 22:00:00,0.0005579507988840984,Theater Main Electricity Meter
+2022-11-03 23:00:00,0.0005410431989179136,Theater Main Electricity Meter
+2022-11-04 00:00:00,0.0005241355989517288,Theater Main Electricity Meter
+2022-11-04 01:00:00,0.0002874291994251416,Theater Main Electricity Meter
+2022-11-04 02:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-04 03:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-04 04:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-04 05:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-04 06:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-04 07:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-04 08:00:00,0.00042268999915462,Theater Main Electricity Meter
+2022-11-04 09:00:00,0.0005241355989517288,Theater Main Electricity Meter
+2022-11-04 10:00:00,0.0004903203990193593,Theater Main Electricity Meter
+2022-11-04 11:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-04 12:00:00,0.0005748583988502832,Theater Main Electricity Meter
+2022-11-04 13:00:00,0.0005410431989179136,Theater Main Electricity Meter
+2022-11-04 14:00:00,0.0004057823991884352,Theater Main Electricity Meter
+2022-11-04 15:00:00,0.0004903203990193593,Theater Main Electricity Meter
+2022-11-04 16:00:00,0.0005748583988502832,Theater Main Electricity Meter
+2022-11-04 17:00:00,0.0006255811987488376,Theater Main Electricity Meter
+2022-11-04 18:00:00,0.000591765998816468,Theater Main Electricity Meter
+2022-11-04 19:00:00,0.0005410431989179136,Theater Main Electricity Meter
+2022-11-04 20:00:00,0.0004903203990193593,Theater Main Electricity Meter
+2022-11-04 21:00:00,0.000507227998985544,Theater Main Electricity Meter
+2022-11-04 22:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-04 23:00:00,0.0004903203990193593,Theater Main Electricity Meter
+2022-11-05 00:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-05 01:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-05 02:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-05 03:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-05 04:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-05 05:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-05 06:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-05 07:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-05 08:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-05 09:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-05 10:00:00,0.0003888747992222504,Theater Main Electricity Meter
+2022-11-05 11:00:00,0.0003550595992898808,Theater Main Electricity Meter
+2022-11-05 12:00:00,0.0003550595992898808,Theater Main Electricity Meter
+2022-11-05 13:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-05 14:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-05 15:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-05 16:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-05 17:00:00,0.0005241355989517288,Theater Main Electricity Meter
+2022-11-05 18:00:00,0.000507227998985544,Theater Main Electricity Meter
+2022-11-05 19:00:00,0.0005241355989517288,Theater Main Electricity Meter
+2022-11-05 20:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-05 21:00:00,0.0004903203990193593,Theater Main Electricity Meter
+2022-11-05 22:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-05 23:00:00,0.0004565051990869896,Theater Main Electricity Meter
+2022-11-06 00:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-06 01:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-06 02:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-06 03:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-06 04:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-06 05:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-06 06:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-06 07:00:00,0.0001859835996280328,Theater Main Electricity Meter
+2022-11-06 08:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-06 09:00:00,0.00042268999915462,Theater Main Electricity Meter
+2022-11-06 10:00:00,8.453799983092401e-05,Theater Main Electricity Meter
+2022-11-06 11:00:00,0.0,Theater Main Electricity Meter
+2022-11-06 12:00:00,0.0,Theater Main Electricity Meter
+2022-11-06 13:00:00,0.0,Theater Main Electricity Meter
+2022-11-06 14:00:00,5.07227998985544e-05,Theater Main Electricity Meter
+2022-11-06 15:00:00,0.0001014455997971088,Theater Main Electricity Meter
+2022-11-06 16:00:00,0.00033815199932369603,Theater Main Electricity Meter
+2022-11-06 17:00:00,0.0006255811987488376,Theater Main Electricity Meter
+2022-11-06 18:00:00,0.0006763039986473921,Theater Main Electricity Meter
+2022-11-06 19:00:00,0.0006086735987826528,Theater Main Electricity Meter
+2022-11-06 20:00:00,0.0005748583988502832,Theater Main Electricity Meter
+2022-11-06 21:00:00,0.0005241355989517288,Theater Main Electricity Meter
+2022-11-06 22:00:00,0.0005241355989517288,Theater Main Electricity Meter
+2022-11-06 23:00:00,0.000507227998985544,Theater Main Electricity Meter
+2022-11-07 00:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-07 01:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-07 02:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-07 03:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-07 04:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-07 05:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-07 06:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-07 07:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-07 08:00:00,0.0004903203990193593,Theater Main Electricity Meter
+2022-11-07 09:00:00,0.0003043367993913264,Theater Main Electricity Meter
+2022-11-07 10:00:00,3.38151999323696e-05,Theater Main Electricity Meter
+2022-11-07 11:00:00,0.0001014455997971088,Theater Main Electricity Meter
+2022-11-07 12:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-07 13:00:00,0.00042268999915462,Theater Main Electricity Meter
+2022-11-07 14:00:00,0.000591765998816468,Theater Main Electricity Meter
+2022-11-07 15:00:00,0.0007101191985797616,Theater Main Electricity Meter
+2022-11-07 16:00:00,0.0007777495984445008,Theater Main Electricity Meter
+2022-11-07 17:00:00,0.00084537999830924,Theater Main Electricity Meter
+2022-11-07 18:00:00,0.000929917998140164,Theater Main Electricity Meter
+2022-11-07 19:00:00,0.0009637331980725336,Theater Main Electricity Meter
+2022-11-07 20:00:00,0.001014455997971088,Theater Main Electricity Meter
+2022-11-07 21:00:00,0.0009130103981739792,Theater Main Electricity Meter
+2022-11-07 22:00:00,0.0008961027982077944,Theater Main Electricity Meter
+2022-11-07 23:00:00,0.0006593963986812072,Theater Main Electricity Meter
+2022-11-08 00:00:00,0.0005579507988840984,Theater Main Electricity Meter
+2022-11-08 01:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-08 02:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-08 03:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-08 04:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-08 05:00:00,0.0002705215994589568,Theater Main Electricity Meter
+2022-11-08 06:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-08 07:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-08 08:00:00,0.0004565051990869896,Theater Main Electricity Meter
+2022-11-08 09:00:00,0.0004395975991208048,Theater Main Electricity Meter
+2022-11-08 10:00:00,0.0003888747992222504,Theater Main Electricity Meter
+2022-11-08 11:00:00,0.0005410431989179136,Theater Main Electricity Meter
+2022-11-08 12:00:00,0.0003043367993913264,Theater Main Electricity Meter
+2022-11-08 13:00:00,0.000253613999492772,Theater Main Electricity Meter
+2022-11-08 14:00:00,0.0007270267985459464,Theater Main Electricity Meter
+2022-11-08 15:00:00,0.0006086735987826528,Theater Main Electricity Meter
+2022-11-08 16:00:00,0.0007270267985459464,Theater Main Electricity Meter
+2022-11-08 17:00:00,0.0007946571984106856,Theater Main Electricity Meter
+2022-11-08 18:00:00,0.0008115647983768704,Theater Main Electricity Meter
+2022-11-08 19:00:00,0.0010313635979372728,Theater Main Electricity Meter
+2022-11-08 20:00:00,0.0010313635979372728,Theater Main Electricity Meter
+2022-11-08 21:00:00,0.0009468255981063488,Theater Main Electricity Meter
+2022-11-08 22:00:00,0.0009975483980049031,Theater Main Electricity Meter
+2022-11-08 23:00:00,0.0007439343985121312,Theater Main Electricity Meter
+2022-11-09 00:00:00,0.0004565051990869896,Theater Main Electricity Meter
+2022-11-09 01:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-09 02:00:00,0.0001859835996280328,Theater Main Electricity Meter
+2022-11-09 03:00:00,0.0002028911995942176,Theater Main Electricity Meter
+2022-11-09 04:00:00,0.0001859835996280328,Theater Main Electricity Meter
+2022-11-09 05:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-09 06:00:00,0.0002197987995604024,Theater Main Electricity Meter
+2022-11-09 07:00:00,0.0002367063995265872,Theater Main Electricity Meter
+2022-11-09 08:00:00,0.00042268999915462,Theater Main Electricity Meter
+2022-11-09 09:00:00,0.0004734127990531744,Theater Main Electricity Meter
+2022-11-09 10:00:00,0.0005241355989517288,Theater Main Electricity Meter
+2022-11-09 11:00:00,0.0004903203990193593,Theater Main Electricity Meter
+2022-11-09 12:00:00,0.0005748583988502832,Theater Main Electricity Meter
+2022-11-09 13:00:00,0.0005579507988840984,Theater Main Electricity Meter
+2022-11-09 14:00:00,0.0006763039986473921,Theater Main Electricity Meter
+2022-11-09 15:00:00,0.0007777495984445008,Theater Main Electricity Meter
+2022-11-09 16:00:00,0.000760841998478316,Theater Main Electricity Meter
+2022-11-09 17:00:00,0.000760841998478316,Theater Main Electricity Meter
+2022-11-09 18:00:00,0.0007101191985797616,Theater Main Electricity Meter
+2022-11-09 19:00:00,0.0008115647983768704,Theater Main Electricity Meter
+2022-11-09 20:00:00,0.000929917998140164,Theater Main Electricity Meter
+2022-11-09 21:00:00,0.0011328091977343816,Theater Main Electricity Meter
+2022-11-09 22:00:00,0.0010313635979372728,Theater Main Electricity Meter
+2022-11-09 23:00:00,0.000929917998140164,Theater Main Electricity Meter
+2022-11-01 01:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 02:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 03:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 04:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 05:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 06:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 07:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 08:00:00,0.0007063960955561264,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 09:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 10:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 11:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 12:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 13:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 14:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 15:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 16:00:00,0.0008669406627279733,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 17:00:00,0.0007706139224248652,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 18:00:00,0.0006100693552530183,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 19:00:00,0.0005779604418186488,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 20:00:00,0.000674287182121757,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 21:00:00,0.0007063960955561264,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 22:00:00,0.0007385050089904957,Weyerhaeuser Hall Main Electricity Meter
+2022-11-01 23:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 00:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 01:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 02:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 03:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 04:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 05:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 06:00:00,0.0003853069612124326,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 07:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 08:00:00,0.0007063960955561264,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 09:00:00,0.0009632674030310815,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 10:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 11:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 12:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 13:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 14:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 15:00:00,0.0008348317492936039,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 16:00:00,0.0008348317492936039,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 17:00:00,0.0007063960955561264,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 18:00:00,0.0005458515283842794,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 19:00:00,0.0005458515283842794,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 20:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 21:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 22:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-02 23:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 00:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 01:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 02:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 03:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 04:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 05:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 06:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 07:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 08:00:00,0.0006100693552530183,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 09:00:00,0.0008027228358592345,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 10:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 11:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 12:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 13:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 14:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 15:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 16:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 17:00:00,0.0008348317492936039,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 18:00:00,0.0005779604418186488,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 19:00:00,0.0005458515283842794,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 20:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 21:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 22:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-03 23:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 00:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 01:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 02:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 03:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 04:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 05:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 06:00:00,0.0003531980477780632,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 07:00:00,0.0003531980477780632,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 08:00:00,0.0006421782686873876,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 09:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 10:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 11:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 12:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 13:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 14:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 15:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 16:00:00,0.0008348317492936039,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 17:00:00,0.0008027228358592345,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 18:00:00,0.0006421782686873876,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 19:00:00,0.0006421782686873876,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 20:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 21:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 22:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-04 23:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 00:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 01:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 02:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 03:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 04:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 05:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 06:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 07:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 08:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 09:00:00,0.0008027228358592345,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 10:00:00,0.0008027228358592345,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 11:00:00,0.0007385050089904957,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 12:00:00,0.000674287182121757,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 13:00:00,0.000674287182121757,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 14:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 15:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 16:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 17:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 18:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 19:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 20:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 21:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 22:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-05 23:00:00,0.0003531980477780632,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 00:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 01:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 02:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 03:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 04:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 05:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 06:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 07:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 08:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 09:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 10:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 11:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 12:00:00,0.00022476239404058566,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 13:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 14:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 15:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 16:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 17:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 18:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 19:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 20:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 21:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 22:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-06 23:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 00:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 01:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 02:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 03:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 04:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 05:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 06:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 07:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 08:00:00,0.0008027228358592345,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 09:00:00,0.0010595941433341896,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 10:00:00,0.0010595941433341896,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 11:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 12:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 13:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 14:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 15:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 16:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 17:00:00,0.0008669406627279733,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 18:00:00,0.0007385050089904957,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 19:00:00,0.0007385050089904957,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 20:00:00,0.0007385050089904957,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 21:00:00,0.0003531980477780632,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 22:00:00,0.0003531980477780632,Weyerhaeuser Hall Main Electricity Meter
+2022-11-07 23:00:00,0.0003531980477780632,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 00:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 01:00:00,0.0003531980477780632,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 02:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 03:00:00,0.0003531980477780632,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 04:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 05:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 06:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 07:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 08:00:00,0.0008348317492936039,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 09:00:00,0.0010595941433341896,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 10:00:00,0.0010595941433341896,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 11:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 12:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 13:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 14:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 15:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 16:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 17:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 18:00:00,0.0007385050089904957,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 19:00:00,0.0007063960955561264,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 20:00:00,0.000674287182121757,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 21:00:00,0.000674287182121757,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 22:00:00,0.000674287182121757,Weyerhaeuser Hall Main Electricity Meter
+2022-11-08 23:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 00:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 01:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 02:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 03:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 04:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 05:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 06:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 07:00:00,0.0003210891343436938,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 08:00:00,0.0007385050089904957,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 09:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 10:00:00,0.0010274852298998202,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 11:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 12:00:00,0.0008990495761623426,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 13:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 14:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 15:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 16:00:00,0.0009953763164654507,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 17:00:00,0.0009311584895967121,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 18:00:00,0.0006421782686873876,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 19:00:00,0.0006100693552530183,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 20:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 21:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 22:00:00,0.0002889802209093244,Weyerhaeuser Hall Main Electricity Meter
+2022-11-09 23:00:00,0.00025687130747495504,Weyerhaeuser Hall Main Electricity Meter
